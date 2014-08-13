@@ -14,7 +14,7 @@ scripts:
     mocha
   """
   prepublish: """
-    lsc -cj package.ls && lsc -c app.ls
+    node_modules/LiveScript/bin/lsc -cj package.ls && node_modules/LiveScript/bin/lsc -c app.ls
   """
 engines: {node: '*'}
 dependencies:
