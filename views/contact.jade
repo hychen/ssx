@@ -1,0 +1,45 @@
+extend ./includes/layout.jade
+block main-wrapper
+    // Main Wrapper
+    #main-wrapper
+      .main-wrapper-style2
+        .inner
+          .container
+            .row
+              .3u
+                #sidebar
+                  // Sidebar
+                  section
+                    header.major
+                      h2 &#x806F;&#x7D61;&#x6211;&#x5011; SSX INC.
+                    p
+                      br
+                      | Email: 
+                      a(href='mailto:service@ssxelerator.com') service@ssxelerator.com
+                      br
+                      | Tel:
+                      br
+                      | Fax:
+                    a.fa.fa-facebook-square(href='https://www.facebook.com/ssxelerator/')
+              .9u.skel-cell-important
+                #map-canvas
+    script(src='https://maps.googleapis.com/maps/api/js?v=3.exp')
+    script.
+      function initialize() {
+      var myLatlng = new google.maps.LatLng(22.9946630,120.2207510);
+      var mapOptions = {
+      zoom: 16,
+      center: myLatlng
+      }
+      var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+      var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: '南星創速器'
+      });
+      var infowindow = new google.maps.InfoWindow({
+      content: '<font color=black><b>南星創速器</b><br />SSX Inc.</font>'
+      });
+      infowindow.open(map,marker);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);

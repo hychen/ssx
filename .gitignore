@@ -1,2 +1,5 @@
-html/default/home.html.bak
-*.sw*
+node_modules/*
+*.swp
+*.swo
+*~
+lib
