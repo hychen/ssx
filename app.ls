@@ -15,7 +15,7 @@ app.engine('jade', require('jade').__express);
 
 <[index about partner contact accelerate]>.map ->
   app.get "/#{it}", (req, res) -> res.render "#{it}", {}
-app.get '/', (req, res) -> res.render 'index', {}
+app.get '/', (req, res) -> res.render 'index', {+isindex}
 
 server = app.listen app.get(\port), ->
   console.log 'Express server listening on port ' + server.address!port

@@ -19,7 +19,9 @@
     });
   });
   app.get('/', function(req, res){
-    return res.render('index', {});
+    return res.render('index', {
+      isindex: true
+    });
   });
   server = app.listen(app.get('port'), function(){
     return console.log('Express server listening on port ' + server.address().port);

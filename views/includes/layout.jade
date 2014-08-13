@@ -35,7 +35,11 @@ html
     meta(property="og:image:type", content="image/png")
     meta(property="og:image:width", content="300")
     meta(property="og:image:height", content="147")       
-  body.homepage
+  if isindex
+    body.homepage
+  else
+    body.left-sidebar
+  fi
     // Header Wrapper
     include ./header.jade
     // Main Wrapper
