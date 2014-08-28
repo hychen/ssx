@@ -19,6 +19,7 @@ scripts:
 engines: {node: '0.11.x'}
 dependencies:
   "express": "*",
+  "i18n-abide": "*",
   "static-favicon": "~1.0.0",
   "morgan": "~1.0.0",
   "cookie-parser": "~1.0.1",
