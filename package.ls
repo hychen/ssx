@@ -18,13 +18,13 @@ scripts:
   """
 engines: {node: '0.11.x'}
 dependencies:
-  "express": "~4.2.0",
+  "express": "*",
   "static-favicon": "~1.0.0",
   "morgan": "~1.0.0",
   "cookie-parser": "~1.0.1",
   "body-parser": "~1.0.0",
   "debug": "~0.7.4",
-  "jade": "~1.3.0"
+  "nunjucks": "1.0.x"
   LiveScript: \1.2.x
 devDependencies:
   express: \3.4.x
