@@ -13,6 +13,10 @@ scripts:
   test: """
     mocha
   """
+  'gen-pot': "./node_modules/.bin/extract-pot -l po  -t jinja  -f html views"
+  'merge-po': "./node_modules/i18n-abide/bin/merge-po.sh po"
+  'update-po': "npm run gen-pot && npm run merge-po"
+  'gen-po-json': "./locale/compile-msg-json.sh"    
   prepublish: """
     node_modules/LiveScript/bin/lsc -cj package.ls && node_modules/LiveScript/bin/lsc -c app.ls
   """
