@@ -14,7 +14,7 @@
   app.use(express['static'](path.join(__dirname, 'public')));
   app.use(i18n.abide({
     supported_languages: ["en-US", "zh-TW"],
-    default_lang: "en-US",
+    default_lang: "zh-TW",
     translation_directory: "locale",
     locale_on_url: true
   }));
