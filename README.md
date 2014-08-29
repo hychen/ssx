@@ -21,6 +21,10 @@ To view the site, open localhost:3000 in a browser.
 
 ## Overview for Developers
 
+- Web server :: Express 
+- Template Engine :: NunJunks
+- i18n & l19n
+
 ### Compile LiveScript if any update
 
 Since LiveScript is a meta language of JavaScript, you'll need to compile LiveScript 
@@ -37,9 +41,9 @@ codes to JavaScript by run `npm run prepublish` after you modify any LiveScript 
 
 ### Git Branch Explains
 
-- master: codes used in production server.
-- stage: codes used in stage server.
-- develop: codes for next development.
+- master     : codes used in production server(http://www.ssxelerator.com).
+- stage      : codes used in stage server(http://stage.ssxelerator.com).
+- develop    : codes for next development.
 
 ## Deploy (to Heroku)
 
