@@ -21,11 +21,11 @@ To view the site, open localhost:3000 in a browser.
 
 ## Overview for Developers
 
-- Web server :: Express 
-- Template Engine :: NunJunks
-- i18n & l19n
+- Web server :: [Express](http://expressjs.com/)
+- Template Engine :: [Nunjucks](https://mozilla.github.io/nunjucks/)
+- Language :: [LiveScript](http://livescript.net)
 
-### Compile LiveScript if any update
+### Compile 
 
 Since LiveScript is a meta language of JavaScript, you'll need to compile LiveScript 
 codes to JavaScript by run `npm run prepublish` after you modify any LiveScript codes.
