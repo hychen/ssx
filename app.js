@@ -12,6 +12,10 @@
   app.use(favicon());
   app.use(morgan('dev'));
   app.use(express['static'](path.join(__dirname, 'public')));
+  app.use(function(err, req, res, next){
+    console.log('iiiii');
+    return next();
+  });
   app.use(i18n.abide({
     supported_languages: ["en-US", "zh-TW"],
     default_lang: "zh-TW",
