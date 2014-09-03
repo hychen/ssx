@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-09-03 13:22+0000\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-09-03 13:58+0000\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
       },
       "南星創業加速器 South Star Xelerator - 關於SSX": [
          null,
@@ -250,6 +250,10 @@
       "增加現有產品或服務的價值？": [
          null,
          "Add more value to your product/service? "
+      ],
+      "ssx, ssxelerator, 南星, 南星加速器, 南星創業加速器, 加速器, 創業": [
+         null,
+         "ssx, ssxelerator, South Star, South Star Accelerator, accelerator, entrepreneur"
       ]
    }
 }

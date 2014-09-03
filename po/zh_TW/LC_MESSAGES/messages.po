@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-09-03 13:22+0000\n"
+"POT-Creation-Date: 2014-09-03 13:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -278,6 +278,7 @@ msgstr ""
 
 #: /Users/hychen/ssx/views/accelerate.html:187
 #: /Users/hychen/ssx/views/accelerate.html:126
+#: /Users/hychen/ssx/views/accelerate.html:130
 msgid "Maker團隊申請"
 msgstr ""
 
@@ -299,6 +300,7 @@ msgstr ""
 #: /Users/hychen/ssx/views/accelerate.html:194
 #: /Users/hychen/ssx/views/accelerate.html:133
 #: /Users/hychen/ssx/views/accelerate.html:136
+#: /Users/hychen/ssx/views/accelerate.html:140
 msgid "馬上申請"
 msgstr ""
 
@@ -326,6 +328,7 @@ msgid "南星創業加速器 South Star Xelerator"
 msgstr ""
 
 #: /Users/hychen/ssx/views/index.html:66 /Users/hychen/ssx/views/index.html:11
+#: /Users/hychen/ssx/views/layout.html:8
 msgid "南星創業加速器: MAKER與創業家的推進器"
 msgstr ""
 
@@ -382,17 +385,25 @@ msgid ""
 msgstr ""
 
 #: /Users/hychen/ssx/views/accelerate.html:129
+#: /Users/hychen/ssx/views/accelerate.html:133
 msgid "你想要。。。"
 msgstr ""
 
 #: /Users/hychen/ssx/views/accelerate.html:132
+#: /Users/hychen/ssx/views/accelerate.html:136
 msgid "找出完善產品雛形的下一步？"
 msgstr ""
 
 #: /Users/hychen/ssx/views/accelerate.html:133
+#: /Users/hychen/ssx/views/accelerate.html:137
 msgid "完善你現有的網路服務或APP並擴大規模？"
 msgstr ""
 
 #: /Users/hychen/ssx/views/accelerate.html:134
+#: /Users/hychen/ssx/views/accelerate.html:138
 msgid "增加現有產品或服務的價值？"
+msgstr ""
+
+#: /Users/hychen/ssx/views/layout.html:9
+msgid "ssx, ssxelerator, 南星, 南星加速器, 南星創業加速器, 加速器, 創業"
 msgstr ""
