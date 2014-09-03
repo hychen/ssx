@@ -37,9 +37,8 @@ nunjucks.configure (app.get \views), do
   express: app
 <[index about partner contact accelerate alumni]>.map ->
    app.get "/#{it}.html", (req, res) -> 
-    console.log req.locale
-    res.render "#{it}.html", {currentLocale: req.locale}
-app.get \/, (req, res) -> res.render "index.html", {currentLocale:req.locale}
+    res.render "#{it}.html", {currentLocale: req.locale, currentPath: req.url}
+app.get \/, (req, res) -> res.render "index.html", {currentLocale:req.locale, currentPath: req.url}
 
 server = app.listen app.get(\port), ->
   console.log 'Express server listening on port ' + server.address!port

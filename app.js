@@ -31,11 +31,17 @@
   });
   ['index', 'about', 'partner', 'contact', 'accelerate', 'alumni'].map(function(it){
     return app.get("/" + it + ".html", function(req, res){
-      return res.render(it + ".html");
+      return res.render(it + ".html", {
+        currentLocale: req.locale,
+        currentPath: req.url
+      });
     });
   });
   app.get('/', function(req, res){
-    return res.render("index.html");
+    return res.render("index.html", {
+      currentLocale: req.locale,
+      currentPath: req.url
+    });
   });
   server = app.listen(app.get('port'), function(){
     return console.log('Express server listening on port ' + server.address().port);
