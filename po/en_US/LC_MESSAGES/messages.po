@@ -161,7 +161,7 @@ msgstr "Service innovation"
 #: /Users/hychen/ssx/views/accelerate.html:4
 #: /Users/hychen/ssx/views/accelerate.html:3
 msgid "南星創業加速器 South Star Xelerator - 創業加速"
-msgstr ""
+msgstr "South Star Xelerator - Accelerator"
 
 #: /Users/hychen/ssx/views/accelerate.html:81
 #: /Users/hychen/ssx/views/index.html:111
@@ -362,7 +362,7 @@ msgstr "Get in touch with SSX INC."
 
 #: /Users/hychen/ssx/views/index.html:4 /Users/hychen/ssx/views/index.html:3
 msgid "南星創業加速器 South Star Xelerator"
-msgstr ""
+msgstr "South Star Xelerator"
 
 #: /Users/hychen/ssx/views/index.html:66 /Users/hychen/ssx/views/index.html:11
 msgid "南星創業加速器: MAKER與創業家的推進器"

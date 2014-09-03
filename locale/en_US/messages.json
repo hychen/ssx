@@ -77,7 +77,7 @@
       ],
       "南星創業加速器 South Star Xelerator - 創業加速": [
          null,
-         ""
+         "South Star Xelerator - Accelerator"
       ],
       "四大加速協助": [
          null,
@@ -193,7 +193,7 @@
       ],
       "南星創業加速器 South Star Xelerator": [
          null,
-         ""
+         "South Star Xelerator"
       ],
       "南星創業加速器: MAKER與創業家的推進器": [
          null,
