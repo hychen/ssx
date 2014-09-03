@@ -35,12 +35,11 @@ app.set \port, process.env.PORT || 3000
 nunjucks.configure (app.get \views), do
   autoescape: true
   express: app
-
-
-
 <[index about partner contact accelerate alumni]>.map ->
-   app.get "/#{it}.html", (req, res) -> res.render "#{it}.html"
-app.get \/, (req, res) -> res.render "index.html"
+   app.get "/#{it}.html", (req, res) -> 
+    console.log req.locale
+    res.render "#{it}.html", {currentLocale: req.locale}
+app.get \/, (req, res) -> res.render "index.html", {currentLocale:req.locale}
 
 server = app.listen app.get(\port), ->
   console.log 'Express server listening on port ' + server.address!port

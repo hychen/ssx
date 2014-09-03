@@ -102,8 +102,12 @@
 												</header>
 												<p>{{ gettext('SSX的育成循環期間有各項創業課程及業界Mentor給予新創團隊適當的coaching服務，每一個循環預計評選15到20組新創團隊，提供其進駐機會，Maker精神亦為主要評選考量之一。在育成階段，與SSX合作的數十位企業主也將提供多種生產設備資源，方便種子團隊製作任何初期產品Prototype，解決新創團隊初期找尋資源不易的問題。SSX在育成加速的最後階段會舉辦Demo Day，邀集產業潛在客⼾、天使基金、生產合作廠商等讓新創團隊能有效的『被看⾒』。') }}</p>
 												
-												
-												<span class="image image-centered"><img src="/images/flow.png" alt="" /></span>												
+												<span class="image image-centered"><img src={% if currentLocale == 'en_US' %} 
+												"/images/flow_en.png" 
+												{% else %}
+												"/images/flow.png" 
+												{% endif %}
+												alt="" /></span>												
 											</article>
 									</div>
 								</div>
