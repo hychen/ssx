@@ -8,14 +8,16 @@
   favicon = require('static-favicon');
   i18n = require('i18n-abide');
   app = express();
+  app.use(function(req, res, next){
+    if (/zh-TW$/.exec(req.url) || /en-US$/.exec(req.url)) {
+      res.redirect(req.url + "/");
+    }
+    return next();
+  });
   app.set('views', path.join(__dirname, 'views'));
   app.use(favicon());
   app.use(morgan('dev'));
   app.use(express['static'](path.join(__dirname, 'public')));
-  app.use(function(err, req, res, next){
-    console.log('iiiii');
-    return next();
-  });
   app.use(i18n.abide({
     supported_languages: ["en-US", "zh-TW"],
     default_lang: "zh-TW",
