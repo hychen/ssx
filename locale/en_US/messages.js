@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-08-29 05:47+0000\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-09-03 13:22+0000\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
       },
       "南星創業加速器 South Star Xelerator - 關於SSX": [
          null,
@@ -29,7 +29,7 @@
       ],
       "加速團隊": [
          null,
-         "Teams"
+         "The Teams"
       ],
       "合作夥伴": [
          null,
@@ -226,6 +226,30 @@
       "社群夥伴": [
          null,
          "Communities"
+      ],
+      "SSX南星創業加速器由台灣國境之南出發，整合各項創業資源，希望透過培育出更多的新創公司，培育在地新創文化，有效實踐矽⾕精神在台灣的最終願景。": [
+         null,
+         "SSX, short for South Star Xelerator, is a seed accelerator based in Tainan City, a city of inspiration, spirit and hospitality, aiming to create a startup hub for new enterprises. With its large college-educated population, the low-cost-of-living environment and the strong local industry alliances, this area owns the very potential reinventing the spirit of Silicon Valley. Combining the local strength and our experienced acceleration program, SSX expects better investment portfolios and returns."
+      ],
+      "SSX著重下列六大領域的種子團隊開發，並歡迎所有Maker團隊的進駐申請與各創投基金的加入，期望創投者與創業者能透過這個平台互利成長。": [
+         null,
+         "SSX focuses on the below 6 industry areas, and all maker teams are welcome to join us."
+      ],
+      "你想要。。。": [
+         null,
+         "Do you want to..."
+      ],
+      "找出完善產品雛形的下一步？": [
+         null,
+         "Make the next move for your project prototype? "
+      ],
+      "完善你現有的網路服務或APP並擴大規模？": [
+         null,
+         "Perfect and scale up your mobile service/app?"
+      ],
+      "增加現有產品或服務的價值？": [
+         null,
+         "Add more value to your product/service? "
       ]
    }
 }
