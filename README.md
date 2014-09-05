@@ -1,3 +1,5 @@
+[ ![Codeship Status for tw-ssxelerator/ssx](https://www.codeship.io/projects/83c09b90-1740-0132-87c7-1e682cfc0f53/status)](https://www.codeship.io/projects/34046)
+
 # Install
 
 ## Local Install
