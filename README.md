@@ -49,8 +49,6 @@ codes to JavaScript by run `npm run prepublish` after you modify any LiveScript 
 
 ## Deploy (to Heroku)
 
-After you push to the cooressponding branchs on github repository.
-
 The codes will be deployed to cooresponding heroku app if the test is passed after you push to 
 stage/master branch on github repository.
 
