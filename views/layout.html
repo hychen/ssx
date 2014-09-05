@@ -36,10 +36,6 @@
 						
 							<!-- Header -->
 								<header id="header">
-									<span>
-									<a style="color:white" href="/zh-TW{{currentPath}}">中(繁)</a> | <a style="color:white" href="/en-US{{currentPath}}">En</a>
-									</span>
-
 									<div class="inner">
 									
 										<!-- Logo -->
@@ -60,6 +56,12 @@
 													</li>
 													<li><a href="partner.html">{{ gettext('合作夥伴') }}</a></li>
 													<li><a href="contact.html">{{ gettext('聯絡我們') }}</a></li>
+													{% if lang == "zh-TW" %}
+													<li class="lang_item"><a href="/en-US{{currentPath}}">EN</a></li>
+													{% endif %}
+													{% if lang == "en-US" %}
+													<li class="lang_item"><a href="/zh-TW{{currentPath}}">中</a></li>
+													{% endif %}
 												</ul>
 											</nav>
 									</div>

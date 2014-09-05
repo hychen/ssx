@@ -161,6 +161,12 @@
 					box-shadow: inset 1px 1px 0px 0px rgba(0,0,0,0.025), 1px 1px 0px 0px rgba(255,255,255,0.025);
 				}
 
+				#nav > ul > li.lang_item > a
+				{
+					background: rgb(100, 100, 100);
+					box-shadow: inset 1px 1px 0px 0px rgba(0,0,0,0.025), 1px 1px 0px 0px rgba(255,255,255,0.025);
+				}
+
 			#nav > ul > li:last-child
 			{
 				padding-right: 0;
