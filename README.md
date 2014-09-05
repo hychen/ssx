@@ -1,3 +1,5 @@
+[ ![Codeship Status for tw-ssxelerator/ssx](https://www.codeship.io/projects/83c09b90-1740-0132-87c7-1e682cfc0f53/status)](https://www.codeship.io/projects/34046)
+
 # Install
 
 ## Local Install
@@ -47,15 +49,8 @@ codes to JavaScript by run `npm run prepublish` after you modify any LiveScript 
 
 ## Deploy (to Heroku)
 
-The url of heroku-stage and heroku is written in internal doc.
-
-Deply to stage server:
-
-    git push heroku-stage stage:master
-
-Deploy to production server:
-
-    git push heroku master:master
+The codes will be deployed to cooresponding heroku app if the test is passed after you push to 
+stage/master branch on github repository.
 
 ## Translation info
 
