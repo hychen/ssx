@@ -49,15 +49,10 @@ codes to JavaScript by run `npm run prepublish` after you modify any LiveScript 
 
 ## Deploy (to Heroku)
 
-The url of heroku-stage and heroku is written in internal doc.
+After you push to the cooressponding branchs on github repository.
 
-Deply to stage server:
-
-    git push heroku-stage stage:master
-
-Deploy to production server:
-
-    git push heroku master:master
+The codes will be deployed to cooresponding heroku app if the test is passed after you push to 
+stage/master branch on github repository.
 
 ## Translation info
 
