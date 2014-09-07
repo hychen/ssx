@@ -58,8 +58,7 @@
 													<li><a href="contact.html">{{ gettext('聯絡我們') }}</a></li>
 													{% if lang == "zh-TW" %}
 													<li class="lang_item"><a href="/en-US{{currentPath}}">EN</a></li>
-													{% endif %}
-													{% if lang == "en-US" %}
+													{% elif lang == "en-US" %}
 													<li class="lang_item"><a href="/zh-TW{{currentPath}}">中</a></li>
 													{% endif %}
 												</ul>

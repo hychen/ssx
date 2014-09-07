@@ -7,7 +7,12 @@
 {% block extraheader %}
 <!-- Banner -->
 	<div id="banner">
-		<h2><strong>SSX:</strong> A Maker's Xelerator<br />
+		<h2>
+		{% if lang == "zh-TW" %}
+		<strong>SSX: A Maker's Xelerator</strong><br />
+		{% elif lang == "en-US" %}
+		<strong>South Star Xelerator:</strong><br />
+		{% endif %}
 		{{ gettext('南星創業加速器: MAKER與創業家的推進器') }}</h2>
 		<p>{{ gettext('想了解南星創業加速器如何運作嗎?') }}</p>
 		<a href="about.html" class="button big fa fa-check-circle">{{ gettext('了解更多') }}</a>
@@ -58,7 +63,9 @@
 										<section>
 											<span class="image image-full"><img src="/images/pic01.jpg" alt="" /></span>
 											<header class="second fa fa-suitcase">
+												{% if lang != "en-US" %}
 												<h3>{{ gettext('資金募集') }}</h3>
+												{% endif %}
 												<span class="byline">Funding</span>
 											</header>
 										</section>
@@ -67,7 +74,9 @@
 										<section>
 											<span class="image image-full"><img src="/images/pic02.jpg" alt="" /></span>
 											<header class="second fa fa-user">
+												{% if lang != "en-US" %}
 												<h3>{{ gettext('育成輔導') }} </h3>
+												{% endif %}
 												<span class="byline">Mentorship</span>
 											</header>
 										</section>
@@ -76,7 +85,9 @@
 										<section>
 											<span class="image image-full"><img src="/images/pic03.jpg" alt="" /></span>
 											<header class="second fa fa-bar-chart-o">
+												{% if lang != "en-US" %}
 												<h3>{{ gettext('軟體資源提供') }}</h3>
+												{% endif %}
 												<span class="byline">Software resources</span>
 											</header>
 										</section>
@@ -85,7 +96,9 @@
 										<section>
 											<span class="image image-full"><img src="/images/pic04.jpg" alt="" /></span>
 											<header class="second fa fa-cog">
+												{% if lang != "en-US" %}
 												<h3>{{ gettext('硬體資源提供') }}</h3>
+												{% endif %}
 												<span class="byline">Hardware resources</span>
 											</header>
 										</section>
@@ -94,7 +107,7 @@
 								<div class="row">
 									<div class="12u">
 										<p>{{ gettext('除此之外，SSX亦例行舉辦各種交流活動，例如：WEEKLY DEMO、TRAINING DAY、SPEAKER SERIES、HAPPY HOUR、1-ON-1 HOUR、REUNION、RESOURCE MATCHING、INSIDER DAY、DEMO DAY ...') }}</p>
-										<a href="accelerate.html" class="button big fa fa-check-circle">{{ gettext('了解更多') }}</a>
+										<a href="accelerate.html" class="button medium fa fa-check-circle">{{ gettext('了解更多') }}</a>
 									</div>
 								</div>
 							</section>

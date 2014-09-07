@@ -156,7 +156,7 @@ msgstr "5. Culture and Creation"
 #: /Users/hychen/ssx/views/about.html:104
 #: /Users/hychen/ssx/views/about.html:45
 msgid "6. 服務創新"
-msgstr "Service innovation"
+msgstr "6. Service innovation"
 
 #: /Users/hychen/ssx/views/accelerate.html:4
 #: /Users/hychen/ssx/views/accelerate.html:3
@@ -302,7 +302,7 @@ msgid ""
 msgstr ""
 "During a SSX acceleration cycle, SSX hosts the advisory sessions of various "
 "startup specific topics and offers coaching services from our industrial "
-"mentors.Beginning with the SSX qualification initiatives in which MAKER "
+"mentors. Beginning with the SSX qualification initiatives in which MAKER "
 "SPIRITS play critical factor, the potential maker teams, i.e the seed teams, "
 "will enter the cycle with the onsite opportunity in the acceleration "
 "facility. Meanwhile, accesses to  miscellaneous production resources will "
@@ -373,7 +373,7 @@ msgstr "Powering the new-generation Makers and Startups"
 
 #: /Users/hychen/ssx/views/index.html:67 /Users/hychen/ssx/views/index.html:12
 msgid "想了解南星創業加速器如何運作嗎?"
-msgstr "Want to know how do SSX work?"
+msgstr "How SSX works?"
 
 #: /Users/hychen/ssx/views/index.html:68
 #: /Users/hychen/ssx/views/index.html:157
