@@ -43,6 +43,9 @@
       currentPath: req.url
     });
   });
+  app.get('/sitemap.xml', function(req, res){
+    return res.render("sitemap.xml");
+  });
   server = app.listen(app.get('port'), function(){
     return console.log('Express server listening on port ' + server.address().port);
   });

@@ -40,5 +40,7 @@ nunjucks.configure (app.get \views), do
     res.render "#{it}.html", {currentLocale: req.locale, currentPath: req.url}
 app.get \/, (req, res) -> res.render "index.html", {currentLocale:req.locale, currentPath: req.url}
 
+app.get \/sitemap.xml, (req, res) -> res.render "sitemap.xml"
+
 server = app.listen app.get(\port), ->
   console.log 'Express server listening on port ' + server.address!port
