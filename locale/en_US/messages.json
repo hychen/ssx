@@ -73,7 +73,7 @@
       ],
       "6. 服務創新": [
          null,
-         "Service innovation"
+         "6. Service innovation"
       ],
       "南星創業加速器 South Star Xelerator - 創業加速": [
          null,
@@ -201,7 +201,7 @@
       ],
       "想了解南星創業加速器如何運作嗎?": [
          null,
-         "Want to know how do SSX work?"
+         "How SSX works?"
       ],
       "了解更多": [
          null,

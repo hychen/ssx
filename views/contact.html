@@ -19,7 +19,11 @@ function initialize() {
       title: '南星創速器'
   });
   var infowindow = new google.maps.InfoWindow({
+      {% if currentLocale == 'en_US' %}
+      content: '<font color=black>SSX Inc.</font>'
+      {% elif currentLocale == 'zh_TW' %}
       content: '<font color=black><b>南星創速器</b><br />SSX Inc.</font>'
+      {% endif %}
   });
   infowindow.open(map,marker);
 }
