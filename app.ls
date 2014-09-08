@@ -30,15 +30,13 @@ app.use i18n.abide do
 
 app.set \port, process.env.PORT || 3000
 
-
-
 nunjucks.configure (app.get \views), do
   autoescape: true
   express: app
 <[index about partner contact accelerate alumni]>.map ->
    app.get "/#{it}.html", (req, res) -> 
-    res.render "#{it}.html", {currentLocale: req.locale, currentPath: req.url}
-app.get \/, (req, res) -> res.render "index.html", {currentLocale:req.locale, currentPath: req.url}
+    res.render "#{it}.html", {ENV: process.env.NODE_ENV, currentLocale: req.locale, currentPath: req.url}
+app.get \/, (req, res) -> res.render "index.html", {ENV: process.env.NODE_ENV, currentLocale:req.locale, currentPath: req.url}
 
 app.get \/sitemap.xml, (req, res) -> res.render "sitemap.xml"
 
