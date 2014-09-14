@@ -21,6 +21,7 @@
 
 {% block content %}
 			<div id="main-wrapper">
+				<a id="event-mf2014"></a>
 				<div class="main-wrapper-style2">
 					<div class="inner">
 				
@@ -28,15 +29,29 @@
 							<section class="container box-feature2">
 								<div class="row">
 									<div class="12u">
+										<header class="first major">
+											<h2>{{ gettext('活動預告') }}</h2>
+											<span class="byline"><strong>Maker Faire Tainan 2014</strong></span>
+										</header>
+									</div>
+								</div>
+								<div class="row">
+									<div class="7u">
 										<section>
-											<header class="major">
-												<h2>{{ gettext('加速流程') }}</h2>
-												<span class="byline">{{ gettext('SSX的一個育成循環持續約4到6個⽉') }}</span>
-											</header>
-											<p>{{ gettext('SSX的育成循環期間有各項創業課程及業界Mentor給予新創團隊適當的coaching服務，每一個循環預計評選15到20組新創團隊，提供其進駐機會，Maker精神亦為主要評選考量之一。在育成階段，與SSX合作的數十位企業主也將提供多種生產設備資源，方便種子團隊製作任何初期產品Prototype，解決新創團隊初期找尋資源不易的問題。SSX在育成加速的最後階段會舉辦Demo Day，邀集產業潛在客⼾、天使基金、生產合作廠商等讓新創團隊能有效的『被看⾒』。') }}</p>
-											<footer>
-												<a href="accelerate.html#flow" class="button medium fa fa-arrow-circle-o-right">Let's do this</a>
-											</footer>
+											<span class="image image-full"><img src="/images/event/makerfaire2014.png" alt="" /></span>
+										</section>
+									</div>
+									<div class="5u">
+										<section class="box-feature3">
+											<p>{{ gettext('由SSX協辦的Maker Faire Tainan 2014即將在府城熱鬧展開，會中你將遇到許多功力深厚的Maker，見識到最酷最用心的Maker作品。
+											在這邊偷偷透露一下，會場會出現很多機器人跟飛行器喔！另外還有各種實作區，不管你是大人還是小孩，都可以帶著滿滿的Maker體驗回家。') }}</p>
+											<p>{{ gettext('日期') }}：2014.11.15 ~ 16</br>
+												{{ gettext('時間') }}：10:00 ~ 17:00</br>
+												{{ gettext('地點：成大光復校區 中正堂') }}</br>
+												{{ gettext('地址：701 臺南市東區大學路一號') }}
+											</p>
+												<a href="http://www.makerfairetainan.tw/" class="button medium fa fa-arrow-circle-o-right" target="_blank">{{ gettext('官方網站') }}</a>
+												<div class="fb-share-button" data-layout="button_count" data-href="http://stage.ssxelerator.com/zh-TW/index.html#mf2014"></div>
 										</section>
 									</div>
 								</div>
@@ -45,7 +60,8 @@
 						</div>
 				</div>
 
-				<div class="main-wrapper-style1">
+				<a id="event-openhouse"></a>
+				<div class="main-wrapper-style4">
 					<div class="inner">
 				
 						<!-- Feature 1 -->
@@ -53,61 +69,31 @@
 								<div class="row">
 									<div class="12u">
 										<header class="first major">
-											<h2>{{ gettext('四大加速協助') }}</h2>
-											<span class="byline"><strong>{{ gettext('資金募集、育成輔導、軟體資源提供與硬體資源提供') }}</strong></span>
+											<h2>{{ gettext('活動預告') }}</h2>
+											<span class="byline"><strong>SSX Open House Party</strong></span>
 										</header>
 									</div>
 								</div>
 								<div class="row">
 									<div class="3u">
-										<section>
-											<span class="image image-full"><img src="/images/pic01.jpg" alt="" /></span>
-											<header class="second fa fa-suitcase">
-												{% if lang != "en-US" %}
-												<h3>{{ gettext('資金募集') }}</h3>
-												{% endif %}
-												<span class="byline">Funding</span>
-											</header>
+									</div>
+									<div class="6u">
+										<section class="box-feature4">
+										<div class="div-highlight">
+											<p>{{ gettext('SSX總部終於決定落在小北路上，為了跟大家分享這股喜悅，我們邀請所有的粉絲朋友們跟我們一起開趴！
+											我們的總部擁有很漂亮的室內與戶外空間，建築物本身也很有台南雅致古樸的老房子氣息，要不是坐落在安靜的住宅區，
+											還真的很希望各位Maker朋友們把對我們總部的喜愛化為尖叫聲！當天我們會為參加的朋友準備超豐盛的餐點，人數有限，請大家儘快報名喔！') }}</p>
+											<p>{{ gettext('日期') }}：2014.11.14</br>
+												{{ gettext('時間') }}：19:00 ~ 22:00</br>
+												{{ gettext('地點：SSX HQ') }}</br>
+												{{ gettext('地址：臺南市小北路') }}
+											</p>
+										</div>
+											<a href="#" class="button medium fa fa-arrow-circle-o-right" target="_blank">{{ gettext('我要跑趴') }}</a>
+											<div class="fb-share-button" data-layout="button_count" data-href="http://stage.ssxelerator.com/zh-TW/index.html#event-openhouse"></div>
 										</section>
 									</div>
 									<div class="3u">
-										<section>
-											<span class="image image-full"><img src="/images/pic02.jpg" alt="" /></span>
-											<header class="second fa fa-user">
-												{% if lang != "en-US" %}
-												<h3>{{ gettext('育成輔導') }} </h3>
-												{% endif %}
-												<span class="byline">Mentorship</span>
-											</header>
-										</section>
-									</div>
-									<div class="3u">
-										<section>
-											<span class="image image-full"><img src="/images/pic03.jpg" alt="" /></span>
-											<header class="second fa fa-bar-chart-o">
-												{% if lang != "en-US" %}
-												<h3>{{ gettext('軟體資源提供') }}</h3>
-												{% endif %}
-												<span class="byline">Software resources</span>
-											</header>
-										</section>
-									</div>
-									<div class="3u">
-										<section>
-											<span class="image image-full"><img src="/images/pic04.jpg" alt="" /></span>
-											<header class="second fa fa-cog">
-												{% if lang != "en-US" %}
-												<h3>{{ gettext('硬體資源提供') }}</h3>
-												{% endif %}
-												<span class="byline">Hardware resources</span>
-											</header>
-										</section>
-									</div>
-								</div>
-								<div class="row">
-									<div class="12u">
-										<p>{{ gettext('除此之外，SSX亦例行舉辦各種交流活動，例如：WEEKLY DEMO、TRAINING DAY、SPEAKER SERIES、HAPPY HOUR、1-ON-1 HOUR、REUNION、RESOURCE MATCHING、INSIDER DAY、DEMO DAY ...') }}</p>
-										<a href="accelerate.html" class="button medium fa fa-check-circle">{{ gettext('了解更多') }}</a>
 									</div>
 								</div>
 							</section>

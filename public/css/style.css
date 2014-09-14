@@ -242,7 +242,7 @@
 		.button.medium
 		{
 			font-size: 1.25em;
-			padding: 1em 2.25em 1em 2.25em;
+			padding: 0.75em 2.25em 0.75em 2.25em;
 		}
 
 		.button.big
@@ -379,7 +379,7 @@
 
 		header.major .byline
 		{
-			margin: 0 0 1.5em 0;
+			margin: 0 0 0.5em 0;
 			position: relative;
 			top: -1em;
 		}
@@ -464,7 +464,13 @@
 				font-size: 1.2em;
 			}
 			
-	
+
+	.box-feature3
+	{
+		text-align: center;
+		line-height: 1.4em;
+	}
+
 	.box-article-list
 	{
 	}
@@ -539,6 +545,13 @@
 	.float:hover, .float:focus, .float:active {
 		-webkit-transform: translateY(-5px);
 		transform: translateY(-5px);
+	}
+
+	.div-highlight
+	{
+		background: rgba(255, 255, 255, 0.5);
+		border-radius:2em;
+		padding: 1em 1em 0em 1em;
 	}
 
 /*********************************************************************************/
@@ -1054,7 +1067,8 @@
 
 		#main-wrapper .main-wrapper-style1 .inner,
 		#main-wrapper .main-wrapper-style2 .inner,
-		#main-wrapper .main-wrapper-style3 .inner
+		#main-wrapper .main-wrapper-style3 .inner,
+		#main-wrapper .main-wrapper-style4 .inner,
 		{
 			position: relative;
 			z-index: 2;
@@ -1106,6 +1120,15 @@
 				z-index: 1;
 				opacity: 0.25;
 			}
+
+		#main-wrapper .main-wrapper-style4
+		{
+			background: url('../images/event/openhouse.jpg');
+			color: #000;
+			position: relative;
+			background-repeat: no-repeat;
+			background-size: 1400px 800px;
+		}
 	
 	#footer-wrapper
 	{
