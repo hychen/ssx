@@ -547,13 +547,6 @@
 		transform: translateY(-5px);
 	}
 
-	.div-highlight
-	{
-		background: rgba(255, 255, 255, 0.5);
-		border-radius:2em;
-		padding: 1em 1em 0em 1em;
-	}
-
 /*********************************************************************************/
 /* Icons                                                                         */
 /* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */
@@ -1067,8 +1060,7 @@
 
 		#main-wrapper .main-wrapper-style1 .inner,
 		#main-wrapper .main-wrapper-style2 .inner,
-		#main-wrapper .main-wrapper-style3 .inner,
-		#main-wrapper .main-wrapper-style4 .inner,
+		#main-wrapper .main-wrapper-style3 .inner
 		{
 			position: relative;
 			z-index: 2;
@@ -1121,15 +1113,6 @@
 				opacity: 0.25;
 			}
 
-		#main-wrapper .main-wrapper-style4
-		{
-			background: url('../images/event/openhouse.jpg');
-			color: #000;
-			position: relative;
-			background-repeat: no-repeat;
-			background-size: 1400px 800px;
-		}
-	
 	#footer-wrapper
 	{
 		position: relative;
