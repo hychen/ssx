@@ -242,7 +242,7 @@
 		.button.medium
 		{
 			font-size: 1.25em;
-			padding: 1em 2.25em 1em 2.25em;
+			padding: 0.75em 2.25em 0.75em 2.25em;
 		}
 
 		.button.big
@@ -379,7 +379,7 @@
 
 		header.major .byline
 		{
-			margin: 0 0 1.5em 0;
+			margin: 0 0 0.5em 0;
 			position: relative;
 			top: -1em;
 		}
@@ -464,7 +464,13 @@
 				font-size: 1.2em;
 			}
 			
-	
+
+	.box-feature3
+	{
+		text-align: center;
+		line-height: 1.4em;
+	}
+
 	.box-article-list
 	{
 	}
@@ -1106,7 +1112,7 @@
 				z-index: 1;
 				opacity: 0.25;
 			}
-	
+
 	#footer-wrapper
 	{
 		position: relative;
