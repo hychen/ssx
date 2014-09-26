@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-09-03 13:58+0000\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-09-19 06:57+0000\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
       },
       "南星創業加速器 South Star Xelerator - 關於SSX": [
          null,
@@ -252,6 +252,38 @@
          ""
       ],
       "ssx, ssxelerator, 南星, 南星加速器, 南星創業加速器, 加速器, 創業": [
+         null,
+         ""
+      ],
+      "活動預告": [
+         null,
+         ""
+      ],
+      "由SSX協辦的Maker Faire Tainan 2014即將在府城熱鬧展開，會中你將遇到許多功力深厚的Maker，見識到最酷最用心的Maker作品。在這邊偷偷透露一下，會場會出現很多機器人跟飛行器喔！另外還有各種實作區，不管你是大人還是小孩，都可以帶著滿滿的Maker體驗回家。": [
+         null,
+         ""
+      ],
+      "日期": [
+         null,
+         ""
+      ],
+      "時間": [
+         null,
+         ""
+      ],
+      "地點：成大光復校區 中正堂": [
+         null,
+         ""
+      ],
+      "地址：701 臺南市東區大學路一號": [
+         null,
+         ""
+      ],
+      "官方網站": [
+         null,
+         ""
+      ],
+      "南星創業加速器": [
          null,
          ""
       ]

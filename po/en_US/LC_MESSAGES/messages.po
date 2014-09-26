@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-09-03 13:58+0000\n"
+"POT-Creation-Date: 2014-09-19 06:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -465,3 +465,49 @@ msgid "ssx, ssxelerator, 南星, 南星加速器, 南星創業加速器, 加速�
 msgstr ""
 "ssx, ssxelerator, South Star, South Star Accelerator, accelerator, "
 "entrepreneur"
+
+#: /Users/hychen/ssx/views/index.html:33
+#: /Users/autumn/ssx_local/views/index.html:33
+msgid "活動預告"
+msgstr "Upcoming event"
+
+#: /Users/hychen/ssx/views/index.html:46
+#: /Users/autumn/ssx_local/views/index.html:46
+msgid ""
+"由SSX協辦的Maker Faire Tainan 2014即將在府城熱鬧展開，會中你將遇到許多功力深"
+"厚的Maker，見識到最酷最用心的Maker作品。在這邊偷偷透露一下，會場會出現很多機"
+"器人跟飛行器喔！另外還有各種實作區，不管你是大人還是小孩，都可以帶著滿滿的"
+"Maker體驗回家。"
+msgstr ""
+"Maker Faire Tainan 2014, co-hosted by SSX, will be held in the ancient city "
+"Tainan. It's an all-ages gathering where you will meet incredible makers "
+"showcasing the most fascinating works.  If you happen to like fiddling with "
+"robots and flying drones, this will be just for you. In the venue, workshops "
+"featuring hands-on activities will also bring you the best maker moment. "
+"Wanna be a maker? To make is to believe!"
+
+#: /Users/autumn/ssx_local/views/index.html:47
+msgid "日期"
+msgstr "Date"
+
+#: /Users/autumn/ssx_local/views/index.html:48
+msgid "時間"
+msgstr "Time"
+
+#: /Users/autumn/ssx_local/views/index.html:49
+msgid "地點：成大光復校區 中正堂"
+msgstr ""
+"Location: Zhong Zheng Hall, Kuang-Fu Campus, National Cheng Kung University"
+
+#: /Users/autumn/ssx_local/views/index.html:50
+msgid "地址：701 臺南市東區大學路一號"
+msgstr "Address: No.1, Daxue Rd., East District, Tainan City, 701"
+
+#: /Users/autumn/ssx_local/views/index.html:52
+msgid "官方網站"
+msgstr "Offical Website"
+
+#: /Users/autumn/ssx_local/views/layout.html:12
+#, fuzzy
+msgid "南星創業加速器"
+msgstr "Accelerator"
