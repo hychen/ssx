@@ -19,6 +19,9 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~1.7.x"
+    "jquery": "~1.7.x",
+    "react": "~0.11.2",
+    "reactfire": "0.2.0",
+    "prelude-ls": "1.1.1"
   }
 }
