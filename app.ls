@@ -17,7 +17,7 @@ app.use (req, res, next) ->
 app.set 'views', path.join __dirname, 'views'
 app.use favicon!
 app.use morgan 'dev'
-app.use express.static path.join __dirname, 'public'
+app.use express.static path.join __dirname, 'frontend/public'
 
 app.use i18n.abide do
     supported_languages: [

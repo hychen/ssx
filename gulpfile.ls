@@ -8,7 +8,7 @@ require! <[
 
 # Config
 # ----------------------------------
-build_path = 'public'
+build_path = 'frontend/public'
 
 # Main
 # ----------------------------------
@@ -20,16 +20,16 @@ gulp.task "js:vendor", <[bower]>, ->
     .pipe gulp-filter -> it.path is /\.js$/
 
   vendor = gulp.src <[
-            vendor/js/jquery.dropotron.min.js
-            vendor/js/config.js
-            vendor/js/skel.min.js
-            vendor/js/skel-panels.min.js
+            frontend/vendor/js/jquery.dropotron.min.js
+            frontend/vendor/js/config.js
+            frontend/vendor/js/skel.min.js
+            frontend/vendor/js/skel-panels.min.js
             ]>
 
   s = streamqueue { +objectMode }
     .done bower, vendor
     .pipe gulp-concat 'vendor.js'
-    .pipe gulp.dest "#{build_path}/js"    
+    .pipe gulp.dest "#{build_path}/js"
 
-gulp.task 'build', <[js:vendor]>
-gulp.task 'default', <[build]>	
+gulp.task 'build', <[js:vendor]> 
+gulp.task 'default', <[build]>
