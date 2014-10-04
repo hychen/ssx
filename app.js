@@ -17,7 +17,7 @@
   app.set('views', path.join(__dirname, 'views'));
   app.use(favicon());
   app.use(morgan('dev'));
-  app.use(express['static'](path.join(__dirname, 'public')));
+  app.use(express['static'](path.join(__dirname, 'frontend/public')));
   app.use(i18n.abide({
     supported_languages: ["en-US", "zh-TW"],
     default_lang: "zh-TW",
@@ -32,6 +32,7 @@
   ['index', 'about', 'partner', 'contact', 'accelerate', 'alumni'].map(function(it){
     return app.get("/" + it + ".html", function(req, res){
       return res.render(it + ".html", {
+        ENV: process.env.NODE_ENV,
         currentLocale: req.locale,
         currentPath: req.url
       });
@@ -39,6 +40,7 @@
   });
   app.get('/', function(req, res){
     return res.render("index.html", {
+      ENV: process.env.NODE_ENV,
       currentLocale: req.locale,
       currentPath: req.url
     });
