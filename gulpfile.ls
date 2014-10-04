@@ -6,6 +6,7 @@ require! <[
   gulp-filter
   gulp-plumber
   gulp-livescript
+  gulp-livereload
   gulp-util
 ]>
 
@@ -25,7 +26,6 @@ gulp.task "js:app", ->
 
   streamqueue { +objectMode }
     .done app
-    .pipe gulp-concat 'app.js'
     .pipe gulp.dest "#{build_path}/js"
 
 gulp.task "js:vendor", <[bower]>, ->
@@ -46,3 +46,7 @@ gulp.task "js:vendor", <[bower]>, ->
 
 gulp.task 'build', <[js:vendor js:app]>
 gulp.task 'default', <[build]>
+
+gulp.task 'watch', <[build]>, ->
+  gulp-livereload.listen silent: true
+  gulp.watch "frontend/app/*.ls", <[js:app]> .on \change, gulp-livereload.changed

@@ -45,3 +45,4 @@ devDependencies:
   'gulp-filter': '^0.4.1'
   'gulp-plumber': '^0.6.2'
   'gulp-livescript': '^0.3.0'
+  'gulp-livereload': '^2.1.1'
