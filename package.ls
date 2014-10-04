@@ -43,3 +43,5 @@ devDependencies:
   'gulp': '^3.7.0'
   'gulp-bower': '~0.0.2'
   'gulp-filter': '^0.4.1'
+  'gulp-plumber': '^0.6.2'
+  'gulp-livescript': '^0.3.0'
