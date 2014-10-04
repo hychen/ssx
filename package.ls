@@ -10,6 +10,7 @@ repository:
   type: 'git'
   url: 'git://github.com/tw-ssxeleator/ssx-web.git'
 scripts:
+  gulp: "./node_modules/.bin/gulp --require LiveScript --env production"
   test: """
     mocha
   """
@@ -37,3 +38,8 @@ devDependencies:
   supertest: \0.7.x
   chai: \1.8.x
   LiveScript: \1.2.x
+  'streamqueue': '^0.1.0'
+  'main-bower-files': '^1.0.1'
+  'gulp': '^3.7.0'
+  'gulp-bower': '~0.0.2'
+  'gulp-filter': '^0.4.1'
