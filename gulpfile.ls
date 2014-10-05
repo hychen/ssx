@@ -37,6 +37,7 @@ gulp.task "js:vendor", <[bower]>, ->
             frontend/vendor/js/config.js
             frontend/vendor/js/skel.min.js
             frontend/vendor/js/skel-panels.min.js
+            bower_components/prelude-ls/browser/prelude-browser-min.js
             ]>
 
   s = streamqueue { +objectMode }

@@ -1,9 +1,11 @@
 {div, h2, a, p, span, article, header} = React.DOM
+prelude = require 'prelude-ls'
 
 List = React.createClass do
   render: ->
+    posts = prelude.obj-to-pairs @props.items .reverse!
     div {className:\box-article-list}, 
-      ... for let k,v of @props.items
+      ... for let [k,v] in posts
         article {key:k},
           div {},
             header {},

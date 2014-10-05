@@ -1,16 +1,21 @@
-var ref$, div, h2, a, p, span, article, header, List, Blogroll;
+var ref$, div, h2, a, p, span, article, header, prelude, List, Blogroll;
 ref$ = React.DOM, div = ref$.div, h2 = ref$.h2, a = ref$.a, p = ref$.p, span = ref$.span, article = ref$.article, header = ref$.header;
+prelude = require('prelude-ls');
 List = React.createClass({
   render: function(){
+    var posts;
+    posts = prelude.objToPairs(this.props.items).reverse();
     return div.apply(null, [{
       className: 'box-article-list'
     }].concat((function(){
-      var i$, results$ = [];
-      for (i$ in this.props.items) {
-        results$.push((fn$.call(this, i$, this.props.items[i$])));
+      var i$, len$, results$ = [];
+      for (i$ = 0, len$ = posts.length; i$ < len$; ++i$) {
+        results$.push((fn$.call(this, posts[i$])));
       }
       return results$;
-      function fn$(k, v){
+      function fn$(arg$){
+        var k, v;
+        k = arg$[0], v = arg$[1];
         return article({
           key: k
         }, div({}, header({}, h2({}, v.title), span({
