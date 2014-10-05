@@ -1,4 +1,4 @@
-{div, h2, a, p, span, article, header} = React.DOM
+{div, h2, a, p, img, span, article, header} = React.DOM
 prelude = require 'prelude-ls'
 
 List = React.createClass do
@@ -23,7 +23,8 @@ Blogroll = React.createClass do
     @bindAsArray(ref.limit(1), \items)
   render: ->
     if @state.items.length == 0
-      div {className:"container box-feature3"}, 'Loading...'
+      div {className:"container box-feature3"}, 
+        img {src:'/images/spin-pacman.gif'}, null
     else
       List {items: @state.items.0}
 

@@ -1,5 +1,5 @@
-var ref$, div, h2, a, p, span, article, header, prelude, List, Blogroll;
-ref$ = React.DOM, div = ref$.div, h2 = ref$.h2, a = ref$.a, p = ref$.p, span = ref$.span, article = ref$.article, header = ref$.header;
+var ref$, div, h2, a, p, img, span, article, header, prelude, List, Blogroll;
+ref$ = React.DOM, div = ref$.div, h2 = ref$.h2, a = ref$.a, p = ref$.p, img = ref$.img, span = ref$.span, article = ref$.article, header = ref$.header;
 prelude = require('prelude-ls');
 List = React.createClass({
   render: function(){
@@ -47,7 +47,9 @@ Blogroll = React.createClass({
     if (this.state.items.length === 0) {
       return div({
         className: "container box-feature3"
-      }, 'Loading...');
+      }, img({
+        src: '/images/spin-pacman.gif'
+      }, null));
     } else {
       return List({
         items: this.state.items[0]
