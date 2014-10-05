@@ -67,6 +67,17 @@ To generate `public/js/vendor.js`.
 $ npm run gulp
 ```
 
+## Embed Blog Content 
+
+Importing RSS feed of Blog to [firebase](https://firebase.com) every 30m in a dedicate 
+server by using [feedthefire_cli](https://github.com/poga/feedthefire_cli).
+
+Fetching and display the contents from firebase by using [firereact](https://reactfiretodoapp.firebaseapp.com/).
+
+```
+$ feedthefire_cli/index.js ssx.firebaseio.com/blog ${secrets} https://ssxtalks.wordpress.com/feed/atom
+```
+
 ## Translation info
 
 This site uses `i18n-abide` with `gettext`. 
