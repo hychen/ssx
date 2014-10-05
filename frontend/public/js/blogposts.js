@@ -41,7 +41,7 @@ Blogroll = React.createClass({
   componentWillMount: function(){
     var ref;
     ref = new Firebase("https://ssx.firebaseio.com/blog/");
-    return this.bindAsArray(ref.limit(1), 'items');
+    return this.bindAsArray(ref.limit(3), 'items');
   },
   render: function(){
     if (this.state.items.length === 0) {

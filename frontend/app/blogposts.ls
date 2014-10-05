@@ -20,7 +20,7 @@ Blogroll = React.createClass do
     items: []
   componentWillMount: ->
     ref = new Firebase "https://ssx.firebaseio.com/blog/"
-    @bindAsArray(ref.limit(1), \items)
+    @bindAsArray(ref.limit(3), \items)
   render: ->
     if @state.items.length == 0
       div {className:"container box-feature3"}, 
