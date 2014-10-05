@@ -36,6 +36,14 @@ To view the site, open localhost:3000 in a browser.
 Since LiveScript is a meta language of JavaScript, you'll need to compile LiveScript 
 codes to JavaScript by run `npm run prepublish` after you modify any LiveScript codes.
 
+but for frontend codes, you could just run
+
+```
+$ gulp --require LiveScript watch
+```
+
+`frontend/app/*.ls` will be automatically compiled.
+
 ### File Structure 
 
 - locale/ :: the translated messages in json formate that express really use.
