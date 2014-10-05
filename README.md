@@ -24,8 +24,12 @@ To view the site, open localhost:3000 in a browser.
 ## Overview for Developers
 
 - Web server :: [Express](http://expressjs.com/)
+- Realtime Database :: [Firebase](http://firebase.com)
 - Template Engine :: [Nunjucks](https://mozilla.github.io/nunjucks/)
 - Language :: [LiveScript](http://livescript.net)
+- Frontend Package Manager :: [Bower](http://bower.io)
+- Frontend Builder :: [Gulp](http://gulpjs.com)
+- Frontend View :: [React](https://facebook.github.io/react/)
 
 ### Compile 
 
