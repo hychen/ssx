@@ -1,23 +1,27 @@
-var ref$, div, h2, p, a, List, Blogroll;
-ref$ = React.DOM, div = ref$.div, h2 = ref$.h2, p = ref$.p, a = ref$.a;
+var ref$, div, h2, a, p, span, article, header, List, Blogroll;
+ref$ = React.DOM, div = ref$.div, h2 = ref$.h2, a = ref$.a, p = ref$.p, span = ref$.span, article = ref$.article, header = ref$.header;
 List = React.createClass({
   render: function(){
-    return div.apply(null, [{}].concat((function(){
+    return div.apply(null, [{
+      className: 'box-article-list'
+    }].concat((function(){
       var i$, results$ = [];
       for (i$ in this.props.items) {
         results$.push((fn$.call(this, i$, this.props.items[i$])));
       }
       return results$;
       function fn$(k, v){
-        return div({
+        return article({
           key: k
-        }, h2({}, v.title), p({
+        }, div({}, header({}, h2({}, v.title), span({
+          className: 'byline'
+        }, v.author + ""))), div({
           dangerouslySetInnerHTML: {
-            __html: v.description
+            __html: v.summary
           }
-        }, null), p({}, a({
+        }, null), a({
           href: v.link
-        }, 'More')));
+        }, 'more'));
       }
     }.call(this))));
   }
@@ -32,11 +36,13 @@ Blogroll = React.createClass({
   componentWillMount: function(){
     var ref;
     ref = new Firebase("https://ssx.firebaseio.com/blog/");
-    return this.bindAsArray(ref.limit(3), 'items');
+    return this.bindAsArray(ref.limit(1), 'items');
   },
   render: function(){
     if (this.state.items.length === 0) {
-      return div({}, 'Loading...');
+      return div({
+        className: "container box-feature3"
+      }, 'Loading...');
     } else {
       return List({
         items: this.state.items[0]
