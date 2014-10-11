@@ -1,6 +1,36 @@
-var ref$, div, h4, a, p, img, span, article, header, prelude, BlogPostsList, InfoBox;
+var ref$, div, h4, a, p, img, span, article, header, prelude, d, EventsList, BlogPostsList, InfoBox;
 ref$ = React.DOM, div = ref$.div, h4 = ref$.h4, a = ref$.a, p = ref$.p, img = ref$.img, span = ref$.span, article = ref$.article, header = ref$.header;
 prelude = require('prelude-ls');
+d = function(it){
+  return new Date(it).toLocaleDateString();
+};
+EventsList = React.createClass({
+  render: function(){
+    var posts;
+    posts = prelude.objToPairs(this.props.items).reverse();
+    if (posts.length > 3) {
+      posts = [posts[0], posts[1], posts[2]];
+    }
+    return div.apply(null, [{
+      className: 'box-article-list'
+    }].concat((function(){
+      var i$, len$, results$ = [];
+      for (i$ = 0, len$ = posts.length; i$ < len$; ++i$) {
+        results$.push((fn$.call(this, posts[i$])));
+      }
+      return results$;
+      function fn$(arg$){
+        var k, v;
+        k = arg$[0], v = arg$[1];
+        return article({
+          key: k
+        }, header({}, h4({}, a({
+          href: v.link
+        }, v.title)), span({}, d(v.pubdate) + "")));
+      }
+    }.call(this))));
+  }
+});
 BlogPostsList = React.createClass({
   render: function(){
     var posts;
@@ -25,7 +55,7 @@ BlogPostsList = React.createClass({
           href: v.link
         }, v.title)), span({
           className: 'byline'
-        }, v.author + "")));
+        }, d(v.pubdate) + " " + v.author)));
       }
     }.call(this))));
   }
@@ -61,7 +91,7 @@ InfoBox = React.createClass({
         return BlogPostsList({
           items: this.state.items[0]
         });
-      case !/event/.test(ref$[0]):
+      case !/events/.test(ref$[0]):
         return EventsList({
           items: this.state.items[0]
         });
@@ -72,7 +102,7 @@ InfoBox = React.createClass({
   }
 });
 React.renderComponent(InfoBox({
-  collectionname: 'blog'
+  collectionname: 'events'
 }), document.getElementById('events'));
 React.renderComponent(InfoBox({
   collectionname: 'blog'
