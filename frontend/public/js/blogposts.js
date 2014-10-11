@@ -1,10 +1,13 @@
-var ref$, div, h2, a, p, img, span, article, header, prelude, List, Blogroll;
-ref$ = React.DOM, div = ref$.div, h2 = ref$.h2, a = ref$.a, p = ref$.p, img = ref$.img, span = ref$.span, article = ref$.article, header = ref$.header;
+var ref$, div, h4, a, p, img, span, article, header, prelude, BlogPostsList, InfoBox;
+ref$ = React.DOM, div = ref$.div, h4 = ref$.h4, a = ref$.a, p = ref$.p, img = ref$.img, span = ref$.span, article = ref$.article, header = ref$.header;
 prelude = require('prelude-ls');
-List = React.createClass({
+BlogPostsList = React.createClass({
   render: function(){
     var posts;
     posts = prelude.objToPairs(this.props.items).reverse();
+    if (posts.length > 3) {
+      posts = [posts[0], posts[1], posts[2]];
+    }
     return div.apply(null, [{
       className: 'box-article-list'
     }].concat((function(){
@@ -18,21 +21,22 @@ List = React.createClass({
         k = arg$[0], v = arg$[1];
         return article({
           key: k
-        }, div({}, header({}, h2({}, v.title), span({
-          className: 'byline'
-        }, v.author + ""))), div({
-          dangerouslySetInnerHTML: {
-            __html: v.summary
-          }
-        }, null), a({
+        }, header({}, h4({}, a({
           href: v.link
-        }, 'more'));
+        }, v.title)), span({
+          className: 'byline'
+        }, v.author + "")));
       }
     }.call(this))));
   }
 });
-Blogroll = React.createClass({
+InfoBox = React.createClass({
   mixins: [ReactFireMixin],
+  getDefaultProps: function(){
+    return {
+      collectionname: null
+    };
+  },
   getInitialState: function(){
     return {
       items: []
@@ -40,21 +44,36 @@ Blogroll = React.createClass({
   },
   componentWillMount: function(){
     var ref;
-    ref = new Firebase("https://ssx.firebaseio.com/blog/");
+    ref = new Firebase("https://ssx.firebaseio.com/" + this.props.collectionname + "/");
     return this.bindAsArray(ref.limit(3), 'items');
   },
   render: function(){
+    var ref$;
     if (this.state.items.length === 0) {
       return div({
-        className: "container box-feature3"
+        className: "container"
       }, img({
         src: '/images/spin-pacman.gif'
       }, null));
     } else {
-      return List({
-        items: this.state.items[0]
-      });
+      switch (ref$ = [this.props.collectionname], false) {
+      case !/blog/.test(ref$[0]):
+        return BlogPostsList({
+          items: this.state.items[0]
+        });
+      case !/event/.test(ref$[0]):
+        return EventsList({
+          items: this.state.items[0]
+        });
+      default:
+        return console.error('unsupported collection type #{it}');
+      }
     }
   }
 });
-React.renderComponent(Blogroll(), document.getElementById('blogroll'));
+React.renderComponent(InfoBox({
+  collectionname: 'blog'
+}), document.getElementById('events'));
+React.renderComponent(InfoBox({
+  collectionname: 'blog'
+}), document.getElementById('blogposts'));
