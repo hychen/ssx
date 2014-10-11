@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-09-19 06:01+0000\n"
+"POT-Creation-Date: 2014-10-11 16:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -10,6 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: /Users/hychen/ssx/views/about.html:4 /Users/hychen/ssx/views/about.html:3
+#: /Users/hychen/github/ssx/ssx/views/about.html:3
 msgid "南星創業加速器 South Star Xelerator - 關於SSX"
 msgstr "South Star Xelerator - About SSX"
 
@@ -20,6 +21,7 @@ msgstr "South Star Xelerator - About SSX"
 #: /Users/hychen/ssx/views/index.html:42
 #: /Users/hychen/ssx/views/partner.html:42
 #: /Users/hychen/ssx/views/layout.html:44
+#: /Users/hychen/github/ssx/ssx/views/layout.html:42
 msgid "首頁"
 msgstr "Home"
 
@@ -31,6 +33,8 @@ msgstr "Home"
 #: /Users/hychen/ssx/views/partner.html:43
 #: /Users/hychen/ssx/views/about.html:31
 #: /Users/hychen/ssx/views/layout.html:45
+#: /Users/hychen/github/ssx/ssx/views/about.html:31
+#: /Users/hychen/github/ssx/ssx/views/layout.html:43
 msgid "關於SSX"
 msgstr "About SSX"
 
@@ -41,6 +45,7 @@ msgstr "About SSX"
 #: /Users/hychen/ssx/views/index.html:45
 #: /Users/hychen/ssx/views/partner.html:45
 #: /Users/hychen/ssx/views/layout.html:47
+#: /Users/hychen/github/ssx/ssx/views/layout.html:45
 msgid "創業加速"
 msgstr "Accelerator"
 
@@ -51,6 +56,7 @@ msgstr "Accelerator"
 #: /Users/hychen/ssx/views/index.html:47
 #: /Users/hychen/ssx/views/partner.html:47
 #: /Users/hychen/ssx/views/layout.html:49
+#: /Users/hychen/github/ssx/ssx/views/layout.html:47
 msgid "加速服務"
 msgstr "Services"
 
@@ -62,6 +68,7 @@ msgstr "Services"
 #: /Users/hychen/ssx/views/partner.html:48
 #: /Users/hychen/ssx/views/index.html:28
 #: /Users/hychen/ssx/views/layout.html:50
+#: /Users/hychen/github/ssx/ssx/views/layout.html:48
 msgid "加速流程"
 msgstr "The program"
 
@@ -73,6 +80,8 @@ msgstr "The program"
 #: /Users/hychen/ssx/views/partner.html:49
 #: /Users/hychen/ssx/views/alumni.html:20
 #: /Users/hychen/ssx/views/layout.html:51
+#: /Users/hychen/github/ssx/ssx/views/alumni.html:20
+#: /Users/hychen/github/ssx/ssx/views/layout.html:49
 msgid "加速團隊"
 msgstr "The Teams"
 
@@ -87,6 +96,9 @@ msgstr "The Teams"
 #: /Users/hychen/ssx/views/layout.html:54
 #: /Users/hychen/ssx/views/partner.html:20
 #: /Users/hychen/ssx/views/partner.html:23
+#: /Users/hychen/github/ssx/ssx/views/layout.html:52
+#: /Users/hychen/github/ssx/ssx/views/partner.html:20
+#: /Users/hychen/github/ssx/ssx/views/partner.html:23
 msgid "合作夥伴"
 msgstr "Partners"
 
@@ -97,10 +109,12 @@ msgstr "Partners"
 #: /Users/hychen/ssx/views/index.html:53
 #: /Users/hychen/ssx/views/partner.html:53
 #: /Users/hychen/ssx/views/layout.html:55
+#: /Users/hychen/github/ssx/ssx/views/layout.html:54
 msgid "聯絡我們"
 msgstr "Contact Us"
 
 #: /Users/hychen/ssx/views/about.html:93 /Users/hychen/ssx/views/about.html:32
+#: /Users/hychen/github/ssx/ssx/views/about.html:32
 msgid ""
 "創業加速器發源自1950年代的美國，今日更成為眾多新創企業的最佳創業夥伴。透過系"
 "統化的經營與台灣南部適合新創的環境，SSX預期改善天使投資的成功機率，並提升投資"
@@ -126,40 +140,48 @@ msgstr ""
 "industry areas, and all maker teams are welcome to join us."
 
 #: /Users/hychen/ssx/views/about.html:98 /Users/hychen/ssx/views/about.html:39
+#: /Users/hychen/github/ssx/ssx/views/about.html:39
 msgid "六大重點領域"
 msgstr "6 industry focuses"
 
 #: /Users/hychen/ssx/views/about.html:99 /Users/hychen/ssx/views/about.html:40
+#: /Users/hychen/github/ssx/ssx/views/about.html:40
 msgid "1. 科技硬體"
 msgstr "1. Hardware technology"
 
 #: /Users/hychen/ssx/views/about.html:100
 #: /Users/hychen/ssx/views/about.html:41
+#: /Users/hychen/github/ssx/ssx/views/about.html:41
 msgid "2. APP/Mobile"
 msgstr "2. APP/Mobile"
 
 #: /Users/hychen/ssx/views/about.html:101
 #: /Users/hychen/ssx/views/about.html:42
+#: /Users/hychen/github/ssx/ssx/views/about.html:42
 msgid "3. 軟硬整合"
 msgstr "3. SW and HW integration"
 
 #: /Users/hychen/ssx/views/about.html:102
 #: /Users/hychen/ssx/views/about.html:43
+#: /Users/hychen/github/ssx/ssx/views/about.html:43
 msgid "4. 實體產品"
 msgstr "4. Product"
 
 #: /Users/hychen/ssx/views/about.html:103
 #: /Users/hychen/ssx/views/about.html:44
+#: /Users/hychen/github/ssx/ssx/views/about.html:44
 msgid "5. 文創設計"
 msgstr "5. Culture and Creation"
 
 #: /Users/hychen/ssx/views/about.html:104
 #: /Users/hychen/ssx/views/about.html:45
+#: /Users/hychen/github/ssx/ssx/views/about.html:45
 msgid "6. 服務創新"
 msgstr "6. Service innovation"
 
 #: /Users/hychen/ssx/views/accelerate.html:4
 #: /Users/hychen/ssx/views/accelerate.html:3
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:3
 msgid "南星創業加速器 South Star Xelerator - 創業加速"
 msgstr "South Star Xelerator - Accelerator"
 
@@ -167,11 +189,13 @@ msgstr "South Star Xelerator - Accelerator"
 #: /Users/hychen/ssx/views/index.html:111
 #: /Users/hychen/ssx/views/accelerate.html:20
 #: /Users/hychen/ssx/views/index.html:51
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:20
 msgid "四大加速協助"
 msgstr "Accelerator"
 
 #: /Users/hychen/ssx/views/accelerate.html:82
 #: /Users/hychen/ssx/views/accelerate.html:21
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:21
 msgid "SSX給予四大方面的協助：資金募集、育成輔導、軟體資源提供與硬體資源提供"
 msgstr ""
 "In addition to the 4 major assistances below, SSX fills the startup's "
@@ -182,11 +206,13 @@ msgstr ""
 #: /Users/hychen/ssx/views/index.html:121
 #: /Users/hychen/ssx/views/accelerate.html:31
 #: /Users/hychen/ssx/views/index.html:61
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:31
 msgid "資金募集"
 msgstr "Funding"
 
 #: /Users/hychen/ssx/views/accelerate.html:94
 #: /Users/hychen/ssx/views/accelerate.html:33
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:33
 msgid ""
 "SSX透過與天使資金的合作，為新創企業的每個階段提供適時的財務協助。SSX的Angel來"
 "源包含成功大學校友、獨立Angel、企業Angel等。"
@@ -199,11 +225,13 @@ msgstr ""
 #: /Users/hychen/ssx/views/index.html:130
 #: /Users/hychen/ssx/views/accelerate.html:42
 #: /Users/hychen/ssx/views/index.html:70
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:42
 msgid "育成輔導"
 msgstr "Mentorship"
 
 #: /Users/hychen/ssx/views/accelerate.html:105
 #: /Users/hychen/ssx/views/accelerate.html:44
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:44
 msgid ""
 "創業加速器為有意創業的Maker提供創業智庫與育成輔導，不同產業的資深Mentor將提供"
 "自身的經驗與知識，協助新創團隊定位及確認各項概念的可執⾏性、強化Product / "
@@ -222,36 +250,43 @@ msgstr ""
 #: /Users/hychen/ssx/views/index.html:139
 #: /Users/hychen/ssx/views/accelerate.html:53
 #: /Users/hychen/ssx/views/index.html:79
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:53
 msgid "軟體資源提供"
 msgstr "Software Resources"
 
 #: /Users/hychen/ssx/views/accelerate.html:116
 #: /Users/hychen/ssx/views/accelerate.html:55
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:55
 msgid "SSX提供各項創業所需軟體/服務資源："
 msgstr "SSX offers the software/service resources:"
 
 #: /Users/hychen/ssx/views/accelerate.html:118
 #: /Users/hychen/ssx/views/accelerate.html:57
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:57
 msgid "財務/會計服務"
 msgstr "Financial/Accounting service"
 
 #: /Users/hychen/ssx/views/accelerate.html:119
 #: /Users/hychen/ssx/views/accelerate.html:58
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:58
 msgid "法務/專利服務"
 msgstr "Legal/IP service"
 
 #: /Users/hychen/ssx/views/accelerate.html:120
 #: /Users/hychen/ssx/views/accelerate.html:59
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:59
 msgid "MIS服務"
 msgstr "MIS service"
 
 #: /Users/hychen/ssx/views/accelerate.html:121
 #: /Users/hychen/ssx/views/accelerate.html:60
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:60
 msgid "社群服務"
 msgstr "Community networking"
 
 #: /Users/hychen/ssx/views/accelerate.html:122
 #: /Users/hychen/ssx/views/accelerate.html:61
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:61
 msgid "各項管理服務"
 msgstr "Other operational services"
 
@@ -259,16 +294,19 @@ msgstr "Other operational services"
 #: /Users/hychen/ssx/views/index.html:148
 #: /Users/hychen/ssx/views/accelerate.html:71
 #: /Users/hychen/ssx/views/index.html:88
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:71
 msgid "硬體資源提供"
 msgstr "Hardware Resources"
 
 #: /Users/hychen/ssx/views/accelerate.html:134
 #: /Users/hychen/ssx/views/accelerate.html:73
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:73
 msgid "SSX提供各項創業所需硬體資源："
 msgstr "SSX offers the hardware resources:"
 
 #: /Users/hychen/ssx/views/accelerate.html:136
 #: /Users/hychen/ssx/views/accelerate.html:75
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:75
 msgid ""
 "生產資源：從3D printing、CNC加⼯、SMT/DIP、模具加⼯等實體創新需要的資源及專業"
 "技師技術"
@@ -278,6 +316,7 @@ msgstr ""
 
 #: /Users/hychen/ssx/views/accelerate.html:161
 #: /Users/hychen/ssx/views/accelerate.html:100
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:100
 msgid "SSX加速流程"
 msgstr "The program"
 
@@ -285,6 +324,7 @@ msgstr "The program"
 #: /Users/hychen/ssx/views/index.html:89
 #: /Users/hychen/ssx/views/accelerate.html:101
 #: /Users/hychen/ssx/views/index.html:29
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:101
 msgid "SSX的一個育成循環持續約4到6個⽉"
 msgstr "A SSX acceleration cycle lasting from 4 to 6 months"
 
@@ -292,6 +332,7 @@ msgstr "A SSX acceleration cycle lasting from 4 to 6 months"
 #: /Users/hychen/ssx/views/index.html:91
 #: /Users/hychen/ssx/views/accelerate.html:103
 #: /Users/hychen/ssx/views/index.html:31
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:103
 msgid ""
 "SSX的育成循環期間有各項創業課程及業界Mentor給予新創團隊適當的coaching服務，每"
 "一個循環預計評選15到20組新創團隊，提供其進駐機會，Maker精神亦為主要評選考量之"
@@ -316,6 +357,7 @@ msgstr ""
 #: /Users/hychen/ssx/views/accelerate.html:187
 #: /Users/hychen/ssx/views/accelerate.html:126
 #: /Users/hychen/ssx/views/accelerate.html:130
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:130
 msgid "Maker團隊申請"
 msgstr "Maker Application"
 
@@ -340,44 +382,54 @@ msgstr "Add more value to your product/service? "
 #: /Users/hychen/ssx/views/accelerate.html:133
 #: /Users/hychen/ssx/views/accelerate.html:136
 #: /Users/hychen/ssx/views/accelerate.html:140
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:140
 msgid "馬上申請"
 msgstr "Apply now"
 
 #: /Users/hychen/ssx/views/alumni.html:4 /Users/hychen/ssx/views/alumni.html:3
+#: /Users/hychen/github/ssx/ssx/views/alumni.html:3
 msgid "南星創業加速器 South Star Xelerator - 加速團隊"
 msgstr "South Star Xelerator - Teams"
 
 #: /Users/hychen/ssx/views/alumni.html:96
 #: /Users/hychen/ssx/views/alumni.html:35
+#: /Users/hychen/github/ssx/ssx/views/alumni.html:35
 msgid "了解你的肌肉極限"
 msgstr "Check your muscular strength"
 
 #: /Users/hychen/ssx/views/contact.html:4
 #: /Users/hychen/ssx/views/contact.html:3
+#: /Users/hychen/github/ssx/ssx/views/contact.html:3
 msgid "南星創業加速器 South Star Xelerator - 聯絡我們"
 msgstr "South Star Xelerator - Contact Us"
 
 #: /Users/hychen/ssx/views/contact.html:105
 #: /Users/hychen/ssx/views/contact.html:48
+#: /Users/hychen/github/ssx/ssx/views/contact.html:52
 msgid "聯絡我們 SSX INC."
 msgstr "Get in touch with SSX INC."
 
 #: /Users/hychen/ssx/views/index.html:4 /Users/hychen/ssx/views/index.html:3
+#: /Users/hychen/github/ssx/ssx/views/index.html:3
 msgid "南星創業加速器 South Star Xelerator"
 msgstr "South Star Xelerator"
 
 #: /Users/hychen/ssx/views/index.html:66 /Users/hychen/ssx/views/index.html:11
 #: /Users/hychen/ssx/views/layout.html:8
+#: /Users/hychen/github/ssx/ssx/views/index.html:20
+#: /Users/hychen/github/ssx/ssx/views/layout.html:8
 msgid "南星創業加速器: MAKER與創業家的推進器"
 msgstr "Powering the new-generation Makers and Startups"
 
 #: /Users/hychen/ssx/views/index.html:67 /Users/hychen/ssx/views/index.html:12
+#: /Users/hychen/github/ssx/ssx/views/index.html:21
 msgid "想了解南星創業加速器如何運作嗎?"
 msgstr "How SSX works?"
 
 #: /Users/hychen/ssx/views/index.html:68
 #: /Users/hychen/ssx/views/index.html:157
 #: /Users/hychen/ssx/views/index.html:13 /Users/hychen/ssx/views/index.html:97
+#: /Users/hychen/github/ssx/ssx/views/index.html:22
 msgid "了解更多"
 msgstr "Read More"
 
@@ -399,11 +451,13 @@ msgstr ""
 
 #: /Users/hychen/ssx/views/partner.html:4
 #: /Users/hychen/ssx/views/partner.html:3
+#: /Users/hychen/github/ssx/ssx/views/partner.html:3
 msgid "南星創業加速器 South Star Xelerator - 合作夥伴"
 msgstr "South Star Xelerator - Partners"
 
 #: /Users/hychen/ssx/views/partner.html:82
 #: /Users/hychen/ssx/views/partner.html:21
+#: /Users/hychen/github/ssx/ssx/views/partner.html:21
 msgid ""
 "SSX的合作夥伴包括Maker社群、青創團體與在地企業，數量持續增加當中，他們能夠提"
 "供新進創業家實務上的經驗與技術上的支援交流。"
@@ -414,10 +468,12 @@ msgstr ""
 
 #: /Users/hychen/ssx/views/partner.html:123
 #: /Users/hychen/ssx/views/partner.html:62
+#: /Users/hychen/github/ssx/ssx/views/partner.html:62
 msgid "社群夥伴"
 msgstr "Communities"
 
 #: /Users/hychen/ssx/views/about.html:35
+#: /Users/hychen/github/ssx/ssx/views/about.html:35
 #, fuzzy
 msgid ""
 "SSX南星創業加速器由台灣國境之南出發，整合各項創業資源，希望透過培育出更多的新"
@@ -432,6 +488,7 @@ msgstr ""
 "expects better investment portfolios and returns."
 
 #: /Users/hychen/ssx/views/about.html:37
+#: /Users/hychen/github/ssx/ssx/views/about.html:37
 #, fuzzy
 msgid ""
 "SSX著重下列六大領域的種子團隊開發，並歡迎所有Maker團隊的進駐申請與各創投基金"
@@ -442,25 +499,30 @@ msgstr ""
 
 #: /Users/hychen/ssx/views/accelerate.html:129
 #: /Users/hychen/ssx/views/accelerate.html:133
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:133
 msgid "你想要。。。"
 msgstr "Do you want to..."
 
 #: /Users/hychen/ssx/views/accelerate.html:132
 #: /Users/hychen/ssx/views/accelerate.html:136
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:136
 msgid "找出完善產品雛形的下一步？"
 msgstr "Make the next move for your project prototype? "
 
 #: /Users/hychen/ssx/views/accelerate.html:133
 #: /Users/hychen/ssx/views/accelerate.html:137
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:137
 msgid "完善你現有的網路服務或APP並擴大規模？"
 msgstr "Perfect and scale up your mobile service/app?"
 
 #: /Users/hychen/ssx/views/accelerate.html:134
 #: /Users/hychen/ssx/views/accelerate.html:138
+#: /Users/hychen/github/ssx/ssx/views/accelerate.html:138
 msgid "增加現有產品或服務的價值？"
 msgstr "Add more value to your product/service? "
 
 #: /Users/hychen/ssx/views/layout.html:9
+#: /Users/hychen/github/ssx/ssx/views/layout.html:9
 msgid "ssx, ssxelerator, 南星, 南星加速器, 南星創業加速器, 加速器, 創業"
 msgstr ""
 "ssx, ssxelerator, South Star, South Star Accelerator, accelerator, "
@@ -468,11 +530,14 @@ msgstr ""
 
 #: /Users/hychen/ssx/views/index.html:33
 #: /Users/autumn/ssx_local/views/index.html:33
+#: /Users/hychen/github/ssx/ssx/views/index.html:37
+#: /Users/hychen/github/ssx/ssx/views/index.html:79
 msgid "活動預告"
 msgstr "Upcoming event"
 
 #: /Users/hychen/ssx/views/index.html:46
 #: /Users/autumn/ssx_local/views/index.html:46
+#: /Users/hychen/github/ssx/ssx/views/index.html:56
 msgid ""
 "由SSX協辦的Maker Faire Tainan 2014即將在府城熱鬧展開，會中你將遇到許多功力深"
 "厚的Maker，見識到最酷最用心的Maker作品。在這邊偷偷透露一下，會場會出現很多機"
@@ -487,27 +552,37 @@ msgstr ""
 "Wanna be a maker? To make is to believe!"
 
 #: /Users/autumn/ssx_local/views/index.html:47
+#: /Users/hychen/github/ssx/ssx/views/index.html:57
 msgid "日期"
 msgstr "Date"
 
 #: /Users/autumn/ssx_local/views/index.html:48
+#: /Users/hychen/github/ssx/ssx/views/index.html:58
 msgid "時間"
 msgstr "Time"
 
 #: /Users/autumn/ssx_local/views/index.html:49
+#: /Users/hychen/github/ssx/ssx/views/index.html:59
 msgid "地點：成大光復校區 中正堂"
 msgstr ""
 "Location: Zhong Zheng Hall, Kuang-Fu Campus, National Cheng Kung University"
 
 #: /Users/autumn/ssx_local/views/index.html:50
+#: /Users/hychen/github/ssx/ssx/views/index.html:60
 msgid "地址：701 臺南市東區大學路一號"
 msgstr "Address: No.1, Daxue Rd., East District, Tainan City, 701"
 
 #: /Users/autumn/ssx_local/views/index.html:52
+#: /Users/hychen/github/ssx/ssx/views/index.html:62
 msgid "官方網站"
 msgstr "Offical Website"
 
 #: /Users/autumn/ssx_local/views/layout.html:12
+#: /Users/hychen/github/ssx/ssx/views/layout.html:12
 #, fuzzy
 msgid "南星創業加速器"
 msgstr "Accelerator"
+
+#: /Users/hychen/github/ssx/ssx/views/index.html:86
+msgid "部落格"
+msgstr "Blog"
