@@ -29,20 +29,29 @@ gulp.task "js:app", ->
     .pipe gulp.dest "#{build_path}/js"
 
 gulp.task "js:vendor", <[bower]>, ->
-  bower = gulp.src main-bower-files!
-    .pipe gulp-filter -> it.path is /\.js$/
+  build = (name, files) ->
+    src = gulp.src files
+    s = streamqueue { +objectMode }
+      .done src
+      .pipe gulp.dest "#{build_path}/#{name}"      
 
-  vendor = gulp.src <[
-            frontend/vendor/js/jquery.dropotron.min.js
-            frontend/vendor/js/config.js
-            frontend/vendor/js/skel.min.js
-            frontend/vendor/js/skel-panels.min.js
-            ]>
+  build 'vendor/jquery/js', <[
+    bower_components/jquery/jquery.min.js
+    ]>            
 
-  s = streamqueue { +objectMode }
-    .done bower, vendor
-    .pipe gulp-concat 'vendor.js'
-    .pipe gulp.dest "#{build_path}/js"
+  build 'vendor/moment/js', <[
+    bower_components/moment/min/moment.min.js
+    ]>      
+
+  build 'vendor/fullcalendar/js', <[
+    bower_components/fullcalendar/dist/fullcalendar.min.js
+    bower_components/fullcalendar/dist/lang/zh-tw.js
+    ]>
+
+  build 'vendor/fullcalendar/css', <[
+    bower_components/fullcalendar/dist/fullcalendar.min.css
+    bower_components/fullcalendar/dist/fullcalendar.print.css
+    ]>
 
 gulp.task 'build', <[js:vendor js:app]>
 gulp.task 'default', <[build]>
