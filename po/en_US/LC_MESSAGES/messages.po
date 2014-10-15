@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-11 16:29+0000\n"
+"POT-Creation-Date: 2014-10-15 15:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -11,6 +11,7 @@ msgstr ""
 
 #: /Users/hychen/ssx/views/about.html:4 /Users/hychen/ssx/views/about.html:3
 #: /Users/hychen/github/ssx/ssx/views/about.html:3
+#: /Users/hychen/github/ssx/ssx/views/events.html:3
 msgid "南星創業加速器 South Star Xelerator - 關於SSX"
 msgstr "South Star Xelerator - About SSX"
 
@@ -22,6 +23,7 @@ msgstr "South Star Xelerator - About SSX"
 #: /Users/hychen/ssx/views/partner.html:42
 #: /Users/hychen/ssx/views/layout.html:44
 #: /Users/hychen/github/ssx/ssx/views/layout.html:42
+#: /Users/hychen/github/ssx/ssx/views/layout.html:47
 msgid "首頁"
 msgstr "Home"
 
@@ -35,6 +37,8 @@ msgstr "Home"
 #: /Users/hychen/ssx/views/layout.html:45
 #: /Users/hychen/github/ssx/ssx/views/about.html:31
 #: /Users/hychen/github/ssx/ssx/views/layout.html:43
+#: /Users/hychen/github/ssx/ssx/views/layout.html:49
+#: /Users/hychen/github/ssx/ssx/views/layout.html:51
 msgid "關於SSX"
 msgstr "About SSX"
 
@@ -46,6 +50,7 @@ msgstr "About SSX"
 #: /Users/hychen/ssx/views/partner.html:45
 #: /Users/hychen/ssx/views/layout.html:47
 #: /Users/hychen/github/ssx/ssx/views/layout.html:45
+#: /Users/hychen/github/ssx/ssx/views/layout.html:56
 msgid "創業加速"
 msgstr "Accelerator"
 
@@ -57,6 +62,7 @@ msgstr "Accelerator"
 #: /Users/hychen/ssx/views/partner.html:47
 #: /Users/hychen/ssx/views/layout.html:49
 #: /Users/hychen/github/ssx/ssx/views/layout.html:47
+#: /Users/hychen/github/ssx/ssx/views/layout.html:58
 msgid "加速服務"
 msgstr "Services"
 
@@ -69,6 +75,7 @@ msgstr "Services"
 #: /Users/hychen/ssx/views/index.html:28
 #: /Users/hychen/ssx/views/layout.html:50
 #: /Users/hychen/github/ssx/ssx/views/layout.html:48
+#: /Users/hychen/github/ssx/ssx/views/layout.html:59
 msgid "加速流程"
 msgstr "The program"
 
@@ -82,6 +89,7 @@ msgstr "The program"
 #: /Users/hychen/ssx/views/layout.html:51
 #: /Users/hychen/github/ssx/ssx/views/alumni.html:20
 #: /Users/hychen/github/ssx/ssx/views/layout.html:49
+#: /Users/hychen/github/ssx/ssx/views/layout.html:60
 msgid "加速團隊"
 msgstr "The Teams"
 
@@ -99,6 +107,7 @@ msgstr "The Teams"
 #: /Users/hychen/github/ssx/ssx/views/layout.html:52
 #: /Users/hychen/github/ssx/ssx/views/partner.html:20
 #: /Users/hychen/github/ssx/ssx/views/partner.html:23
+#: /Users/hychen/github/ssx/ssx/views/layout.html:67
 msgid "合作夥伴"
 msgstr "Partners"
 
@@ -110,6 +119,7 @@ msgstr "Partners"
 #: /Users/hychen/ssx/views/partner.html:53
 #: /Users/hychen/ssx/views/layout.html:55
 #: /Users/hychen/github/ssx/ssx/views/layout.html:54
+#: /Users/hychen/github/ssx/ssx/views/layout.html:52
 msgid "聯絡我們"
 msgstr "Contact"
 
@@ -418,11 +428,13 @@ msgstr "South Star Xelerator"
 #: /Users/hychen/ssx/views/layout.html:8
 #: /Users/hychen/github/ssx/ssx/views/index.html:20
 #: /Users/hychen/github/ssx/ssx/views/layout.html:8
+#: /Users/hychen/github/ssx/ssx/views/index.html:24
 msgid "南星創業加速器: MAKER與創業家的推進器"
 msgstr "Powering the new-generation Makers and Startups"
 
 #: /Users/hychen/ssx/views/index.html:67 /Users/hychen/ssx/views/index.html:12
 #: /Users/hychen/github/ssx/ssx/views/index.html:21
+#: /Users/hychen/github/ssx/ssx/views/index.html:25
 msgid "想了解南星創業加速器如何運作嗎?"
 msgstr "How SSX works?"
 
@@ -430,6 +442,7 @@ msgstr "How SSX works?"
 #: /Users/hychen/ssx/views/index.html:157
 #: /Users/hychen/ssx/views/index.html:13 /Users/hychen/ssx/views/index.html:97
 #: /Users/hychen/github/ssx/ssx/views/index.html:22
+#: /Users/hychen/github/ssx/ssx/views/index.html:26
 msgid "了解更多"
 msgstr "Read More"
 
@@ -532,12 +545,15 @@ msgstr ""
 #: /Users/autumn/ssx_local/views/index.html:33
 #: /Users/hychen/github/ssx/ssx/views/index.html:37
 #: /Users/hychen/github/ssx/ssx/views/index.html:79
+#: /Users/hychen/github/ssx/ssx/views/index.html:41
+#: /Users/hychen/github/ssx/ssx/views/index.html:83
 msgid "活動預告"
 msgstr "Upcoming event"
 
 #: /Users/hychen/ssx/views/index.html:46
 #: /Users/autumn/ssx_local/views/index.html:46
 #: /Users/hychen/github/ssx/ssx/views/index.html:56
+#: /Users/hychen/github/ssx/ssx/views/index.html:60
 msgid ""
 "由SSX協辦的Maker Faire Tainan 2014即將在府城熱鬧展開，會中你將遇到許多功力深"
 "厚的Maker，見識到最酷最用心的Maker作品。在這邊偷偷透露一下，會場會出現很多機"
@@ -553,27 +569,32 @@ msgstr ""
 
 #: /Users/autumn/ssx_local/views/index.html:47
 #: /Users/hychen/github/ssx/ssx/views/index.html:57
+#: /Users/hychen/github/ssx/ssx/views/index.html:61
 msgid "日期"
 msgstr "Date"
 
 #: /Users/autumn/ssx_local/views/index.html:48
 #: /Users/hychen/github/ssx/ssx/views/index.html:58
+#: /Users/hychen/github/ssx/ssx/views/index.html:62
 msgid "時間"
 msgstr "Time"
 
 #: /Users/autumn/ssx_local/views/index.html:49
 #: /Users/hychen/github/ssx/ssx/views/index.html:59
+#: /Users/hychen/github/ssx/ssx/views/index.html:63
 msgid "地點：成大光復校區 中正堂"
 msgstr ""
 "Location: Zhong Zheng Hall, Kuang-Fu Campus, National Cheng Kung University"
 
 #: /Users/autumn/ssx_local/views/index.html:50
 #: /Users/hychen/github/ssx/ssx/views/index.html:60
+#: /Users/hychen/github/ssx/ssx/views/index.html:64
 msgid "地址：701 臺南市東區大學路一號"
 msgstr "Address: No.1, Daxue Rd., East District, Tainan City, 701"
 
 #: /Users/autumn/ssx_local/views/index.html:52
 #: /Users/hychen/github/ssx/ssx/views/index.html:62
+#: /Users/hychen/github/ssx/ssx/views/index.html:66
 msgid "官方網站"
 msgstr "Offical Website"
 
@@ -584,15 +605,164 @@ msgid "南星創業加速器"
 msgstr "Accelerator"
 
 #: /Users/autumn/ssx_local/views/apply.html:3
+#: /Users/hychen/github/ssx/ssx/views/apply.html:3
 #, fuzzy
 msgid "南星創業加速器 South Star Xelerator - 申請加速"
 msgstr "South Star Xelerator - Accelerator"
 
 #: /Users/autumn/ssx_local/views/layout.html:64
+#: /Users/hychen/github/ssx/ssx/views/layout.html:69
 msgid "申請加速"
 msgstr "Apply"
 
 #: /Users/hychen/github/ssx/ssx/views/index.html:86
+#: /Users/hychen/github/ssx/ssx/views/index.html:90
 msgid "部落格"
 msgstr "Blog"
 
+#: /Users/hychen/github/ssx/ssx/views/apply.html:21
+msgid "線上申請"
+msgstr "Apply"
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:22
+msgid ""
+"如果你是希望獲得SSX加速服務的新創團隊，請填寫下列申請資訊，我們會儘快與你聯"
+"繫。"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:35
+msgid "關於團隊"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:40
+msgid "團隊或公司名稱"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:42
+msgid "網頁URL"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:44
+msgid "聯絡Email"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:46
+msgid "聯絡電話"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:48
+msgid "目前居住城市"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:50
+msgid "未來居住城市"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:52
+msgid "目前團隊人數"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:61
+msgid "是否已成立公司"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:63
+#: /Users/hychen/github/ssx/ssx/views/apply.html:83
+msgid "是"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:64
+#: /Users/hychen/github/ssx/ssx/views/apply.html:84
+msgid "否"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:66
+msgid "成員中是否有學生"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:68
+#: /Users/hychen/github/ssx/ssx/views/apply.html:73
+#: /Users/hychen/github/ssx/ssx/views/apply.html:78
+#: /Users/hychen/github/ssx/ssx/views/apply.html:88
+msgid "有"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:69
+#: /Users/hychen/github/ssx/ssx/views/apply.html:74
+#: /Users/hychen/github/ssx/ssx/views/apply.html:79
+#: /Users/hychen/github/ssx/ssx/views/apply.html:89
+msgid "沒有"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:71
+msgid "有成員只能當兼職"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:76
+msgid "有會寫程式的成員"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:81
+msgid "成員間是否有人未曾彼此見過面"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:86
+msgid "成員間有人需遵守任何競業條款及智財合約"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:91
+msgid "成員間的關係與相識程度"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:93
+msgid "曾參加過的其他加速器或孵化器名稱"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:101
+msgid "創業主題"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:106
+msgid "產品主題簡述"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:108
+msgid "與現有解法有何不同"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:110
+msgid "獲利模式"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:112
+msgid "目前進度"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:114
+msgid "尚未有prototype"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:115
+msgid "已有prototype"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:116
+msgid "已有成品或已上線"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:117
+msgid "已有商業行為"
+msgstr ""
+
+#: /Users/hychen/github/ssx/ssx/views/apply.html:120
+msgid "提出申請"
+msgstr "Apply"
+
+#: /Users/hychen/github/ssx/ssx/views/events.html:34
+msgid "最近活動"
+msgstr "Upcoming Events"
+
+#: /Users/hychen/github/ssx/ssx/views/layout.html:64
+#, fuzzy
+msgid "活動"
+msgstr "Events"

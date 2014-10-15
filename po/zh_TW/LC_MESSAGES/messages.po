@@ -523,6 +523,7 @@ msgstr ""
 
 #: /Users/autumn/ssx_local/views/layout.html:64
 msgid "申請加速"
+msgstr ""
 
 #: /Users/hychen/github/ssx/ssx/views/index.html:86
 msgid "部落格"

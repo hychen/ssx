@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-10-11 16:29+0000\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-10-15 15:12+0000\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
       },
       "南星創業加速器 South Star Xelerator - 關於SSX": [
          null,
@@ -298,6 +298,142 @@
       "部落格": [
          null,
          "Blog"
+      ],
+      "線上申請": [
+         null,
+         "Apply"
+      ],
+      "如果你是希望獲得SSX加速服務的新創團隊，請填寫下列申請資訊，我們會儘快與你聯繫。": [
+         null,
+         ""
+      ],
+      "關於團隊": [
+         null,
+         ""
+      ],
+      "團隊或公司名稱": [
+         null,
+         ""
+      ],
+      "網頁URL": [
+         null,
+         ""
+      ],
+      "聯絡Email": [
+         null,
+         ""
+      ],
+      "聯絡電話": [
+         null,
+         ""
+      ],
+      "目前居住城市": [
+         null,
+         ""
+      ],
+      "未來居住城市": [
+         null,
+         ""
+      ],
+      "目前團隊人數": [
+         null,
+         ""
+      ],
+      "是否已成立公司": [
+         null,
+         ""
+      ],
+      "是": [
+         null,
+         ""
+      ],
+      "否": [
+         null,
+         ""
+      ],
+      "成員中是否有學生": [
+         null,
+         ""
+      ],
+      "有": [
+         null,
+         ""
+      ],
+      "沒有": [
+         null,
+         ""
+      ],
+      "有成員只能當兼職": [
+         null,
+         ""
+      ],
+      "有會寫程式的成員": [
+         null,
+         ""
+      ],
+      "成員間是否有人未曾彼此見過面": [
+         null,
+         ""
+      ],
+      "成員間有人需遵守任何競業條款及智財合約": [
+         null,
+         ""
+      ],
+      "成員間的關係與相識程度": [
+         null,
+         ""
+      ],
+      "曾參加過的其他加速器或孵化器名稱": [
+         null,
+         ""
+      ],
+      "創業主題": [
+         null,
+         ""
+      ],
+      "產品主題簡述": [
+         null,
+         ""
+      ],
+      "與現有解法有何不同": [
+         null,
+         ""
+      ],
+      "獲利模式": [
+         null,
+         ""
+      ],
+      "目前進度": [
+         null,
+         ""
+      ],
+      "尚未有prototype": [
+         null,
+         ""
+      ],
+      "已有prototype": [
+         null,
+         ""
+      ],
+      "已有成品或已上線": [
+         null,
+         ""
+      ],
+      "已有商業行為": [
+         null,
+         ""
+      ],
+      "提出申請": [
+         null,
+         "Apply"
+      ],
+      "最近活動": [
+         null,
+         "Upcoming Events"
+      ],
+      "活動": [
+         null,
+         "Event"
       ]
    }
 }
