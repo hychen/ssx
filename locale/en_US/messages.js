@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-09-19 06:57+0000\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-10-11 16:29+0000\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
       },
       "南星創業加速器 South Star Xelerator - 關於SSX": [
          null,
@@ -185,7 +185,7 @@
       ],
       "南星創業加速器 South Star Xelerator - 聯絡我們": [
          null,
-         "South Star Xelerator - Contact"
+         "South Star Xelerator - Contact Us"
       ],
       "聯絡我們 SSX INC.": [
          null,
@@ -294,6 +294,10 @@
       "申請加速": [
          null,
          "Apply"
+      ],
+      "部落格": [
+         null,
+         "Blog"
       ]
    }
 }

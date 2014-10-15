@@ -238,7 +238,12 @@
 				position: relative;
 				top: 0.05em;
 			}
-		
+
+		.button.small
+		{
+			font-size: 1.00em;
+			padding: 0.5em 2.25em 0.5em 2.25em;
+		}	
 		.button.medium
 		{
 			font-size: 1.25em;

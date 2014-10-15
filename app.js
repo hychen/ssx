@@ -17,7 +17,7 @@
   app.set('views', path.join(__dirname, 'views'));
   app.use(favicon());
   app.use(morgan('dev'));
-  app.use(express['static'](path.join(__dirname, 'public')));
+  app.use(express['static'](path.join(__dirname, 'frontend/public')));
   app.use(i18n.abide({
     supported_languages: ["en-US", "zh-TW"],
     default_lang: "zh-TW",
@@ -29,9 +29,14 @@
     autoescape: true,
     express: app
   });
+<<<<<<< HEAD
   ['index', 'about', 'partner', 'contact', 'accelerate', 'alumni', 'apply'].map(function(it){
+=======
+  ['index', 'about', 'partner', 'contact', 'accelerate', 'events', 'alumni'].map(function(it){
+>>>>>>> develop
     return app.get("/" + it + ".html", function(req, res){
       return res.render(it + ".html", {
+        ENV: process.env.NODE_ENV,
         currentLocale: req.locale,
         currentPath: req.url
       });
@@ -39,11 +44,29 @@
   });
   app.get('/', function(req, res){
     return res.render("index.html", {
+      ENV: process.env.NODE_ENV,
       currentLocale: req.locale,
       currentPath: req.url
     });
   });
-  app.get('/sitemap.xml', function(req, res){
+  app.get('/events.json', function(req, res){
+    var events;
+    events = [
+      {
+        title: 'Startup Weekend Pre-Events / 百人創業周末前期活動',
+        url: 'http://iiinno.kktix.cc/events/sw10-preevent',
+        start: '2014-10-12T14:00',
+        end: null
+      }, {
+        title: 'Maker Fair Tainan 2014',
+        url: 'http://www.makerfairetainan.tw/',
+        start: '2014/11/05 10:00',
+        end: '2014/11/06 17:00'
+      }
+    ];
+    return res.json(events);
+  });
+  app.get('/sitemaop.xml', function(req, res){
     return res.render("sitemap.xml");
   });
   server = app.listen(app.get('port'), function(){

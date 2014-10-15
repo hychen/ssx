@@ -4,6 +4,14 @@
 
 {% block bodyclass %}homepage{% endblock %}
 
+{% block extrahead %}
+<script src='/vendor/firebase/js/firebase.js'></script>
+<script src='/vendor/react/js/react.min.js'></script>
+<script src='/vendor/react/js/reactfire.min.js'></script>
+<script src='http://www.preludels.com/prelude-browser-min.js'></script>
+<script src="/js/react-infobox.js"></script>
+{% endblock %}
+
 {% block extraheader %}
 <!-- Banner -->
 	<div id="banner">
@@ -60,8 +68,42 @@
 									</div>
 								</div>
 							</section>
+							<section>
+								<div class="row">
+									<div class="12u">
+										<header class="first major">
+										</header>
+									</div>
+								</div>								
+								<div class="row">
+									<div class="1u">
+									</div>
+									<div class="5u box-article-list">
+										<header>
+											<h2>{{gettext('活動預告')}}</h2>
+										</header>
+										<div id="events">
+										</div>
+									</div>
+									<div class="5u box-article-list">
+										<header>
+											<h2>{{gettext('部落格')}}</h2>
+										</header>
+										<div id="blogposts">
+										</div>
+									</div>
+									<div class="1u">
+									</div>
+								</div>		
+							</section>
 
 						</div>
 				</div>
 			</div>
+<script>
+React.renderComponent(InfoBox({'collectionname':'events'}), document.getElementById('events'));
+</script>
+<script>
+React.renderComponent(InfoBox({'collectionname':'blog'}), document.getElementById('blogposts'));
+</script>
 {% endblock %}
