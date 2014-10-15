@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ gettext('南星創業加速器 South Star Xelerator - 關於SSX') }}{% endblock %}
+
+{% block bodyclass %}left-sidebar{% endblock %}
+
+{% block extrahead %}
+<link rel="stylesheet" href="/vendor/fullcalendar/css/fullcalendar.min.css">
+<script src='/vendor/moment/js/moment.min.js'></script>
+<script src='/vendor/fullcalendar/js/fullcalendar.min.js'></script>
+{% if lang == 'zh-TW' %}
+<script src='/vendor/fullcalendar/js/zh-tw.js'></script>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+			<div id="main-wrapper">
+				<div class="main-wrapper-style2">
+					<div class="inner">
+						<div class="container">
+							<div class="row">
+								<div class="8u">
+									<div id="calendar"></div>
+								</div>
+								<div class="4u">
+									<div id="sidebar">
+										<section>
+											<header>
+												<h3>{{ gettext('最近活動') }}</h3>
+											</header>	
+										</section>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+<script>
+	$(document).ready(function() {
+		$('#calendar').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,basicWeek,basicDay'
+            },
+			defaultDate: Date(),
+			events: {
+				url: '/events.json'
+			},
+            eventClick: function(event) {
+                if (event.url) {
+                    window.open(event.url);
+                    return false;
+                }
+            }
+        });
+	});
+</script>			
+{% endblock %}
