@@ -29,11 +29,7 @@
     autoescape: true,
     express: app
   });
-<<<<<<< HEAD
-  ['index', 'about', 'partner', 'contact', 'accelerate', 'alumni', 'apply'].map(function(it){
-=======
-  ['index', 'about', 'partner', 'contact', 'accelerate', 'events', 'alumni'].map(function(it){
->>>>>>> develop
+  ['index', 'about', 'partner', 'contact', 'accelerate', 'events', 'alumni', 'apply'].map(function(it){
     return app.get("/" + it + ".html", function(req, res){
       return res.render(it + ".html", {
         ENV: process.env.NODE_ENV,
@@ -60,13 +56,13 @@
       }, {
         title: 'Maker Fair Tainan 2014',
         url: 'http://www.makerfairetainan.tw/',
-        start: '2014/11/05 10:00',
-        end: '2014/11/06 17:00'
+        start: '2014-11-05T10:00',
+        end: '2014-11-06T17:00'
       }
     ];
     return res.json(events);
   });
-  app.get('/sitemaop.xml', function(req, res){
+  app.get('/sitemap.xml', function(req, res){
     return res.render("sitemap.xml");
   });
   server = app.listen(app.get('port'), function(){

@@ -52,7 +52,7 @@ app.get '/events.json', (req, res) ->
     ]
   res.json events 
 
-app.get \/sitemaop.xml, (req, res) -> res.render "sitemap.xml"
+app.get \/sitemap.xml, (req, res) -> res.render "sitemap.xml"
 
 server = app.listen app.get(\port), ->
   console.log 'Express server listening on port ' + server.address!port
