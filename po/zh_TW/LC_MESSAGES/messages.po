@@ -445,3 +445,11 @@ msgstr ""
 #: /Users/autumn/ssx_local/views/layout.html:12
 msgid "南星創業加速器"
 msgstr ""
+
+#: /Users/autumn/ssx_local/views/apply.html:3
+msgid "南星創業加速器 South Star Xelerator - 申請加速"
+msgstr ""
+
+#: /Users/autumn/ssx_local/views/layout.html:64
+msgid "申請加速"
+msgstr ""

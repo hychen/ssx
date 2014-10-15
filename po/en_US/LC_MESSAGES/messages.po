@@ -98,7 +98,7 @@ msgstr "Partners"
 #: /Users/hychen/ssx/views/partner.html:53
 #: /Users/hychen/ssx/views/layout.html:55
 msgid "聯絡我們"
-msgstr "Contact Us"
+msgstr "Contact"
 
 #: /Users/hychen/ssx/views/about.html:93 /Users/hychen/ssx/views/about.html:32
 msgid ""
@@ -511,3 +511,12 @@ msgstr "Offical Website"
 #, fuzzy
 msgid "南星創業加速器"
 msgstr "Accelerator"
+
+#: /Users/autumn/ssx_local/views/apply.html:3
+#, fuzzy
+msgid "南星創業加速器 South Star Xelerator - 申請加速"
+msgstr "South Star Xelerator - Accelerator"
+
+#: /Users/autumn/ssx_local/views/layout.html:64
+msgid "申請加速"
+msgstr "Apply"

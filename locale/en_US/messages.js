@@ -37,7 +37,7 @@
       ],
       "聯絡我們": [
          null,
-         "Contact Us"
+         "Contact"
       ],
       "創業加速器發源自1950年代的美國，今日更成為眾多新創企業的最佳創業夥伴。透過系統化的經營與台灣南部適合新創的環境，SSX預期改善天使投資的成功機率，並提升投資回收及爆發的比例。": [
          null,
@@ -185,7 +185,7 @@
       ],
       "南星創業加速器 South Star Xelerator - 聯絡我們": [
          null,
-         "South Star Xelerator - Contact Us"
+         "South Star Xelerator - Contact"
       ],
       "聯絡我們 SSX INC.": [
          null,
@@ -286,6 +286,14 @@
       "南星創業加速器": [
          null,
          "Accelerator"
+      ],
+      "南星創業加速器 South Star Xelerator - 申請加速": [
+         null,
+         "South Star Xelerator - Accelerator"
+      ],
+      "申請加速": [
+         null,
+         "Apply"
       ]
    }
 }

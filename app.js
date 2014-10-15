@@ -29,7 +29,7 @@
     autoescape: true,
     express: app
   });
-  ['index', 'about', 'partner', 'contact', 'accelerate', 'alumni'].map(function(it){
+  ['index', 'about', 'partner', 'contact', 'accelerate', 'alumni', 'apply'].map(function(it){
     return app.get("/" + it + ".html", function(req, res){
       return res.render(it + ".html", {
         currentLocale: req.locale,

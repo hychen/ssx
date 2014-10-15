@@ -33,7 +33,7 @@ app.set \port, process.env.PORT || 3000
 nunjucks.configure (app.get \views), do
   autoescape: true
   express: app
-<[index about partner contact accelerate alumni]>.map ->
+<[index about partner contact accelerate alumni apply]>.map ->
    app.get "/#{it}.html", (req, res) -> 
     res.render "#{it}.html", {ENV: process.env.NODE_ENV, currentLocale: req.locale, currentPath: req.url}
 app.get \/, (req, res) -> res.render "index.html", {ENV: process.env.NODE_ENV, currentLocale:req.locale, currentPath: req.url}

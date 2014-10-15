@@ -1,0 +1,128 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ gettext('南星創業加速器 South Star Xelerator - 申請加速') }}{% endblock %}
+
+{% block bodyclass %}no-sidebar{% endblock %}
+
+{% block content %}		
+
+			<div id="main-wrapper">
+				<div class="main-wrapper-style2">
+					<div class="inner">
+						<div class="container">
+							<div class="row">
+								<div class="12u skel-cell-important">
+									<div id="content">
+
+										<!-- Content -->
+									
+											<article>
+												<header class="major">
+													<h2>{{ gettext('線上申請') }}</h2>
+													<span class="byline">{{ gettext('如果你是希望獲得SSX加速服務的新創團隊，請填寫下列申請資訊，我們會儘快與你聯繫。') }}</span>
+												</header>
+											</article>
+									</div>
+								</div>
+							</div>
+<!-- Change the width and height values to suit you best -->
+<div class="typeform-widget" data-url="https://autumn2.typeform.com/to/fGdQ4b" data-text="seed" style="width:100%;height:500px;"></div>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+<!--							<form>
+							<div class="row">
+								<div class="3u">
+									<div class="form-sidebar">
+										<h3>{{ gettext('關於團隊') }}</h3>
+									</div>
+								</div>
+								<div class="9u">
+									<div class="appform">
+										<h1>{{ gettext('團隊或公司名稱') }}*</h1>
+										<input type="text" maxlength="128" size="60" name="groupname">
+										<h1>{{ gettext('網頁URL') }}</h1>
+										<input type="text" maxlength="256" size="80" name="url">
+										<h1>{{ gettext('聯絡Email') }}*</h1>
+										<input type="email" maxlength="256" size="80" name="email">
+										<h1>{{ gettext('聯絡電話') }}*</h1>
+										<input type="tel" maxlength="30" size="30" name="tel">
+										<h1>{{ gettext('目前居住城市') }}*:
+										<input type="text" maxlength="20" size="20" name="city_now"></h1>
+										<h1>{{ gettext('未來居住城市') }}*:
+										<input type="text" maxlength="20" size="20" name="city_future"></h1>
+										<h1>{{ gettext('目前團隊人數') }}*:
+										<select name="team_size">
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="0">>5</option>
+										</select></h1>
+										<h1>{{ gettext('是否已成立公司') }}*:
+										<select name="company">
+											<option value="Y">{{ gettext('是') }}</option>
+											<option value="N">{{ gettext('否') }}</option>
+										</select></h1>
+										<h1>{{ gettext('成員中是否有學生') }}*:
+										<select name="team_size">
+											<option value="Y">{{ gettext('有') }}</option>
+											<option value="N">{{ gettext('沒有') }}</option>
+										</select></h1>
+										<h1>{{ gettext('有成員只能當兼職') }}*:
+										<select name="part_time">
+											<option value="Y">{{ gettext('有') }}</option>
+											<option value="N">{{ gettext('沒有') }}</option>
+										</select></h1>
+										<h1>{{ gettext('有會寫程式的成員') }}*:
+										<select name="programmer">
+											<option value="Y">{{ gettext('有') }}</option>
+											<option value="N">{{ gettext('沒有') }}</option>
+										</select></h1>
+										<h1>{{ gettext('成員間是否有人未曾彼此見過面') }}*:
+										<select name="member_not_meet">
+											<option value="Y">{{ gettext('是') }}</option>
+											<option value="N">{{ gettext('否') }}</option>
+										</select></h1>
+										<h1>{{ gettext('成員間有人需遵守任何競業條款及智財合約') }}*:
+										<select name="ip_agreement">
+											<option value="Y">{{ gettext('有') }}</option>
+											<option value="N">{{ gettext('沒有') }}</option>
+										</select></h1>
+										<h1>{{ gettext('成員間的關係與相識程度') }}*</h1>
+										<input type="text" maxlength="128" size="80" name="relation">
+										<h1>{{ gettext('曾參加過的其他加速器或孵化器名稱') }}*</h1>
+										<input type="text" maxlength="128" size="80" name="other_acc">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="3u">
+									<div class="form-sidebar">
+										<h3>{{ gettext('創業主題') }}</h3>
+									</div>
+								</div>
+								<div class="9u">
+									<div class="appform">
+										<h1>{{ gettext('產品主題簡述') }}*</h1>
+										<textarea rows="5" cols="80" name="product"></textarea>
+										<h1>{{ gettext('與現有解法有何不同') }}*</h1>
+										<textarea rows="5" cols="80" name="differ"></textarea>
+										<h1>{{ gettext('獲利模式') }}*</h1>
+										<textarea rows="5" cols="80" name="profit"></textarea>
+										<h1>{{ gettext('目前進度') }}*:
+										<select name="status">
+											<option value="0">{{ gettext('尚未有prototype') }}</option>
+											<option value="1">{{ gettext('已有prototype') }}</option>
+											<option value="2">{{ gettext('已有成品或已上線') }}</option>
+											<option value="3">{{ gettext('已有商業行為') }}</option>
+										</select></h1>
+									</div>
+									<br /><input type="button" class="button fa" value="{{ gettext('提出申請')}}" /> 								
+								</div>
+							</div>
+							</form> -->
+						</div>
+					</div>
+				</div>
+			</div>
+{% endblock %}			

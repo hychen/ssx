@@ -44,7 +44,13 @@
 											<nav id="nav">
 												<ul>
 													<li class="current_page_item"><a href="index.html">{{ gettext('首頁') }}</a></li>
-													<li><a href="about.html">{{ gettext('關於SSX') }}</a></li>
+													<li>
+														<span>{{ gettext('關於SSX') }}</span>
+														<ul>
+															<li><a href="about.html">{{ gettext('關於SSX') }}</a></li>
+															<li><a href="contact.html">{{ gettext('聯絡我們') }}</a></li>
+														</ul>
+													</li>
 													<li>
 														<span>{{ gettext('創業加速') }}</span>
 														<ul>
@@ -55,7 +61,7 @@
 													</li>
 													<li><a href="partner.html">{{ gettext('合作夥伴') }}</a></li>
 													<li><a href="http://ssxtalks.wordpress.com/">BLOG</a></li>
-													<li><a href="contact.html">{{ gettext('聯絡我們') }}</a></li>
+													<li><a href="apply.html">{{ gettext('申請加速') }}</a></li>
 													{% if lang == "zh-TW" %}
 													<li class="lang_item"><a href="/en-US{{currentPath}}">EN</a></li>
 													{% elif lang == "en-US" %}
