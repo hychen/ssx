@@ -8,6 +8,12 @@
 <link rel="stylesheet" href="/vendor/fullcalendar/css/fullcalendar.min.css">
 <script src='/vendor/moment/js/moment.min.js'></script>
 <script src='/vendor/fullcalendar/js/fullcalendar.min.js'></script>
+<script src='/vendor/firebase/js/firebase.js'></script>
+<script src='/vendor/react/js/react.min.js'></script>
+<script src='/vendor/react/js/reactfire.min.js'></script>
+<script src='http://www.preludels.com/prelude-browser-min.js'></script>
+<script src="/js/blogposts.js"></script>
+<script>
 {% if lang == 'zh-TW' %}
 <script src='/vendor/fullcalendar/js/zh-tw.js'></script>
 {% endif %}
@@ -28,6 +34,9 @@
 											<header>
 												<h3>{{ gettext('最近活動') }}</h3>
 											</header>	
+											<div class"2u">
+												<div id='eventsside'></div>
+											</div>
 										</section>
 									</div>
 								</div>
@@ -57,4 +66,7 @@
         });
 	});
 </script>			
+<script>
+React.renderComponent(InfoBox({'collectionname':'events'}), document.getElementById('eventsside'));
+</script>
 {% endblock %}

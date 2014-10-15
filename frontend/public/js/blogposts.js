@@ -7,7 +7,7 @@ d = function(it){
 EventsList = React.createClass({
   render: function(){
     var posts;
-    posts = prelude.objToPairs(this.props.items).reverse();
+    posts = this.props.items.reverse();
     if (posts.length > 3) {
       posts = [posts[0], posts[1], posts[2]];
     }
@@ -16,17 +16,15 @@ EventsList = React.createClass({
     }].concat((function(){
       var i$, len$, results$ = [];
       for (i$ = 0, len$ = posts.length; i$ < len$; ++i$) {
-        results$.push((fn$.call(this, posts[i$])));
+        results$.push((fn$.call(this, i$, posts[i$])));
       }
       return results$;
-      function fn$(arg$){
-        var k, v;
-        k = arg$[0], v = arg$[1];
+      function fn$(i, v){
         return article({
-          key: k
+          key: i
         }, header({}, h4({}, a({
-          href: v.link
-        }, v.title)), span({}, d(v.pubdate) + "")));
+          href: v.url
+        }, v.title)), span({}, v.start)));
       }
     }.call(this))));
   }
@@ -73,9 +71,26 @@ InfoBox = React.createClass({
     };
   },
   componentWillMount: function(){
-    var ref;
-    ref = new Firebase("https://ssx.firebaseio.com/" + this.props.collectionname + "/");
-    return this.bindAsArray(ref.limit(3), 'items');
+    var ref$, ref, this$ = this;
+    switch (ref$ = [this.props.collectionname], false) {
+    case !/blog/.test(ref$[0]):
+      ref = new Firebase("https://ssx.firebaseio.com/" + this.props.collectionname + "/");
+      return this.bindAsArray(ref.limit(3), 'items');
+    case !/events/.test(ref$[0]):
+      return $.ajax({
+        url: '/events.json',
+        type: 'GET',
+        dateType: 'JSON',
+        success: function(it){
+          return this$.setState({
+            items: it
+          });
+        },
+        error: function(){
+          return console.error("load event data failed.");
+        }
+      }, function(){});
+    }
   },
   render: function(){
     var ref$;
@@ -93,7 +108,7 @@ InfoBox = React.createClass({
         });
       case !/events/.test(ref$[0]):
         return EventsList({
-          items: this.state.items[0]
+          items: this.state.items
         });
       default:
         return console.error('unsupported collection type #{it}');
@@ -101,9 +116,3 @@ InfoBox = React.createClass({
     }
   }
 });
-React.renderComponent(InfoBox({
-  collectionname: 'events'
-}), document.getElementById('events'));
-React.renderComponent(InfoBox({
-  collectionname: 'blog'
-}), document.getElementById('blogposts'));

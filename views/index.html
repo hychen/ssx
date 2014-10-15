@@ -9,6 +9,7 @@
 <script src='/vendor/react/js/react.min.js'></script>
 <script src='/vendor/react/js/reactfire.min.js'></script>
 <script src='http://www.preludels.com/prelude-browser-min.js'></script>
+<script src="/js/blogposts.js"></script>
 {% endblock %}
 
 {% block extraheader %}
@@ -99,5 +100,10 @@
 						</div>
 				</div>
 			</div>
-			<script src="/js/blogposts.js"></script>
+<script>
+React.renderComponent(InfoBox({'collectionname':'events'}), document.getElementById('events'));
+</script>
+<script>
+React.renderComponent(InfoBox({'collectionname':'blog'}), document.getElementById('blogposts'));
+</script>
 {% endblock %}

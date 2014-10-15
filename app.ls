@@ -43,6 +43,7 @@ app.get '/events.json', (req, res) ->
     * title: 'Startup Weekend Pre-Events / 百人創業周末前期活動'
       url: 'http://iiinno.kktix.cc/events/sw10-preevent'
       start: '2014-10-12T14:00'
+      end: null
     * title: 'Maker Fair Tainan 2014'
       url: 'http://www.makerfairetainan.tw/'
       start: '2014-11-05T10:00'
