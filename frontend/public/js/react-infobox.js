@@ -24,7 +24,7 @@ EventsList = React.createClass({
           key: i
         }, header({}, h4({}, a({
           href: v.url
-        }, v.title)), span({}, v.start)));
+        }, v.title)), span({className: 'byline'}, v.start)));
       }
     }.call(this))));
   }
@@ -53,7 +53,7 @@ BlogPostsList = React.createClass({
           href: v.link
         }, v.title)), span({
           className: 'byline'
-        }, d(v.pubdate) + " " + v.author)));
+        }, d(v.pubdate) /*+ " " + v.author*/)));
       }
     }.call(this))));
   }

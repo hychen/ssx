@@ -483,8 +483,8 @@
 		.box-article-list article
 		{
 			border-bottom: solid 1px #dbdbdb;
-			margin: 0 0 2.75em 0;
-			padding: 0 0 2.75em 0;
+			margin: 0 0 1.5em 0;
+			padding: 0 0 1.5em 0;
 		}
 
 		.box-article-list article:last-child
@@ -563,6 +563,16 @@
 
 	.subbox-grey {
 		background-color: rgba(160,160,160,0.4);	
+	}
+
+	.subbox-feature1 #footer
+	{
+	}
+
+	.subbox-feature1 #footer a
+	{
+		color: #222;
+		text-shadow: none;
 	}
 
 /*********************************************************************************/
@@ -1242,3 +1252,14 @@
         margin: 0px;
         padding: 0px
       }
+
+	#events h4
+	{
+		color: #a00;
+	}
+	
+	#blogposts h4
+	{
+		color: #0489B1;
+	}	
+	
