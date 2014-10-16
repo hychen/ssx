@@ -552,6 +552,19 @@
 		transform: translateY(-5px);
 	}
 
+	.subbox-feature1 {
+		color: #FFFFFF;
+		padding: 2em 2em 2em 2em;
+		line-height: 1em;
+		border-radius: 8px;
+		text-align: left;
+		text-shadow: none;
+	}
+
+	.subbox-grey {
+		background-color: rgba(160,160,160,0.4);	
+	}
+
 /*********************************************************************************/
 /* Icons                                                                         */
 /* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */
