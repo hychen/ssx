@@ -22,6 +22,7 @@
     "jquery": "~1.11.x",
     "react": "~0.11.2",
     "reactfire": "0.2.0",
-    "prelude-ls": "1.1.1"
+    "prelude-ls": "1.1.1",
+    "fullcalendar": "2.1.1"
   }
 }

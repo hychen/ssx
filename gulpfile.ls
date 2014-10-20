@@ -36,7 +36,7 @@ gulp.task "js:vendor", <[bower]>, ->
       .pipe gulp.dest "#{build_path}/#{name}"      
 
   build 'vendor/jquery/js', <[
-    bower_components/jquery/jquery.min.js
+    bower_components/jquery/dist/jquery*
     ]>            
 
   build 'vendor/moment/js', <[
