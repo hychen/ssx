@@ -67,9 +67,9 @@
 													</li>
 													<li><a href="http://ssxtalks.wordpress.com/">{{gettext('部落格')}}</a></li>
 													<li><a href="apply.html">{{ gettext('申請加速') }}</a></li>
-													{% if lang == "zh-TW" %}
+													{% if lang|upper == "ZH-TW" %}
 													<li class="lang_item"><a href="/en-US{{currentPath}}">EN</a></li>
-													{% elif lang == "en-US" %}
+													{% else %}
 													<li class="lang_item"><a href="/zh-TW{{currentPath}}">中</a></li>
 													{% endif %}
 												</ul>
