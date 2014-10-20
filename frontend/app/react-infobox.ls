@@ -15,7 +15,7 @@ EventsList = React.createClass do
         article {key:i},
           header {}, 
             h4 {}, a {href:v.url}, v.title
-            span {}, v.start 
+            span {className:\byline}, v.start 
 
 BlogPostsList = React.createClass do
   render: ->
@@ -28,7 +28,7 @@ BlogPostsList = React.createClass do
           header {},
             h4 {}, 
               a {href:v.link}, v.title
-            span {className:\byline}, "#{d v.pubdate} #{v.author}" 
+            span {className:\byline}, "#{d v.pubdate}"
 
 InfoBox = React.createClass do
   mixins: [ReactFireMixin],
