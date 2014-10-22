@@ -2,6 +2,7 @@ require! express
 require! nunjucks
 require! path
 require! morgan
+require! 'google-spreadsheets'
 favicon = require 'static-favicon'
 i18n = require 'i18n-abide'
 
@@ -40,17 +41,22 @@ nunjucks.configure (app.get \views), do
 app.get \/, (req, res) -> res.render "index.html", {ENV: process.env.NODE_ENV, currentLocale:req.locale, currentPath: req.url}
 
 app.get '/events.json', (req, res) ->
-  events = [
-    * title: 'Startup Weekend Pre-Events / 百人創業周末前期活動'
-      url: 'http://iiinno.kktix.cc/events/sw10-preevent'
-      start: '2014-10-12T14:00'
-      end: null
-    * title: 'Maker Fair Tainan 2014'
-      url: 'http://www.makerfairetainan.tw/'
-      start: '2014-11-05T10:00'
-      end: '2014-11-06T17:00'
-    ]
-  res.json events 
+  GoogleSpreadsheet = google-spreadsheets
+  err, rows <- GoogleSpreadsheet.rows do 
+    key: '1uQsCyyNK3VVdSgTI_tEywA9OhuQdL1BW6RQ2tBjt9wY'
+    worksheet: 1
+  if err
+    console.error
+    res.json []
+  else
+    events = [] 
+    for row in rows
+      events.push do 
+        title: row.title
+        url: row.url
+        start: typeof row.start is \string and row.start or null
+        end: typeof row.end is \string and row.end or null
+    res.json events 
 
 app.get \/sitemap.xml, (req, res) -> res.render "sitemap.xml"
 

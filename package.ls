@@ -32,6 +32,7 @@ dependencies:
   "debug": "~0.7.4",
   "nunjucks": "1.0.x"
   LiveScript: \1.2.x
+  'google-spreadsheets': \0.3.0
 devDependencies:
   express: \3.4.x
   mocha: \1.14.x
