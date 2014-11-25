@@ -690,3 +690,40 @@ msgstr ""
 #: /Users/hychen/github/ssx/ssx/views/layout.html:64
 msgid "活動"
 msgstr ""
+
+#: /Users/hychen/ssx/views/index.html:33
+#: /Users/autumn/ssx_local/views/index.html:33
+msgid "活動預告"
+msgstr ""
+
+#: /Users/hychen/ssx/views/index.html:46
+#: /Users/autumn/ssx_local/views/index.html:46
+msgid ""
+"由SSX協辦的Maker Faire Tainan "
+"2014即將在府城熱鬧展開，會中你將遇到許多功力深厚的Maker，見識到最酷最用心的Maker作品。在這邊偷偷透露一下，會場會出現很多機器人跟飛行器喔！"
+"另外還有各種實作區，不管你是大人還是小孩，都可以帶著滿滿的Maker體驗回家。"
+msgstr ""
+
+#: /Users/autumn/ssx_local/views/index.html:47
+msgid "日期"
+msgstr ""
+
+#: /Users/autumn/ssx_local/views/index.html:48
+msgid "時間"
+msgstr ""
+
+#: /Users/autumn/ssx_local/views/index.html:49
+msgid "地點：成大光復校區 中正堂"
+msgstr ""
+
+#: /Users/autumn/ssx_local/views/index.html:50
+msgid "地址：701 臺南市東區大學路一號"
+msgstr ""
+
+#: /Users/autumn/ssx_local/views/index.html:52
+msgid "官方網站"
+msgstr ""
+
+#: /Users/autumn/ssx_local/views/layout.html:12
+msgid "南星創業加速器"
+msgstr ""
