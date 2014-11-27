@@ -14,7 +14,7 @@ EventsList = React.createClass do
       ... for let v, i in posts
         article {key:i},
           header {}, 
-            h4 {}, a {href:v.url}, v.title
+            h4 {}, a {href:v.url}, $('<div/>').html(v.title).text!
             span {className:\byline}, v.start 
 
 BlogPostsList = React.createClass do
@@ -27,7 +27,7 @@ BlogPostsList = React.createClass do
         article {key:k},
           header {},
             h4 {}, 
-              a {href:v.link}, v.title
+              a {href:v.link}, $('<div/>').html(v.title).text!
             span {className:\byline}, "#{d v.pubdate}"
 
 InfoBox = React.createClass do

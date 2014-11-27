@@ -24,7 +24,7 @@ EventsList = React.createClass({
           key: i
         }, header({}, h4({}, a({
           href: v.url
-        }, v.title)), span({
+        }, $('<div/>').html(v.title).text())), span({
           className: 'byline'
         }, v.start)));
       }
@@ -53,7 +53,7 @@ BlogPostsList = React.createClass({
           key: k
         }, header({}, h4({}, a({
           href: v.link
-        }, v.title)), span({
+        }, $('<div/>').html(v.title).text())), span({
           className: 'byline'
         }, d(v.pubdate) + "")));
       }
